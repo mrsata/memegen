@@ -1,0 +1,1421 @@
+
+==================== FINAL INTERFACE ====================
+2016-11-09 08:51:59.910072 UTC
+
+interface memeg_LmMZFBFGUdZD6ANCDaWLKw:Memegen.Db 7103
+  interface hash: ed4f839a4095acf0ce394e75fa15951c
+  ABI hash: a994b833b46adc4a2f90f714ebf7299a
+  export-list hash: 8c310feea86950a81100d6301951051c
+  orphan hash: da964849165ab77e8d3430b5facd47fb
+  flag hash: 95d720eb04727f18e2cfde94f813fd34
+  sig of: Nothing
+  used TH splices: True
+  where
+exports:
+  Memegen.Db.createTables
+  Memegen.Db.listMemes
+  Memegen.Db.saveMeme
+  Memegen.Db.tableExists
+  Memegen.Db.Meme{Memegen.Db.Meme Memegen.Db.bottomText Memegen.Db.imageFilepath Memegen.Db.memeId Memegen.Db.topText}
+module dependencies: Memegen.App
+package dependencies: MonadCatchIO-transformers-0.3.1.3@Monad_BSHaJtnktpVL405Pj6vJr0
+                      MonadRandom-0.4.2.3@Monad_I7tEJH7vOtsKQS7CpG48fz
+                      StateVar-1.1.0.4@State_IOvB80WkYNkEizdt0JVpzy
+                      adjunctions-4.3@adjun_C10YYg4JKnvECCafjMc7Cx
+                      aeson-0.9.0.1@aeson_7kzmP8EaHItJ9ePj7u6Xdz
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA
+                      attoparsec-0.13.0.2@attop_41FU8li3hiTHrQHazQNzh3
+                      attoparsec-enumerator-0.3.4@attop_IPMpldG9HEZAWZEN35Kk9z
+                      base-4.8.2.0 base-orphans-0.5.4@baseo_0gFtKFBT26OGSKHmmdqdfx
+                      bifunctors-5.2@bifun_L0Ghdk6Opc6CwEeyCfklQC
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      blaze-textual-0.2.1.0@blaze_2Mh6jNrscJA0Vy1dvfsxqd
+                      blaze-builder-enumerator-0.2.1.0@blaze_3cX4P2HCRhg4D80pRlSDLp
+                      blaze-builder-0.4.0.2@blaze_5LQurmvTy7l9rPlWgPlNE4
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      bytestring-mmap-0.2.2@bytes_838cPOnJ61dLulQP6D7UWj
+                      case-insensitive-1.2.0.6@casei_KREfefAtA7j6zRZtlU9vZn
+                      comonad-4.2.7.2@comon_ElAx0Rjzx8E1yBgPLG9vo4
+                      configurator-0.3.0.0@confi_DkEPU0D3jb33mg0BYCnGkf
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      contravariant-1.4@contr_22YLlupq7YX6QkREpuVZLZ
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      directory-1.2.2.0@direc_0hFG6ZxK1nk4zsyOqbNHfm
+                      directory-tree-0.12.0@direc_858T1RVMWwiLQQo0odiu52
+                      direct-sqlite-2.3.17@direc_D3duxzilrPKH1oKv2GTiAL
+                      distributive-0.5.0.2@distr_55SIdsoyihS4jXBaaVvPQX
+                      dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui
+                      either-4.4.1.1@eithe_54U3iYXzqgo9xoUaZZ787k
+                      enumerator-0.4.20@enume_LyDnEQ6F69uDubH559Giin
+                      exceptions-0.8.2.1@excep_6lgwjdgwblY7rzh5s6SLd8
+                      extensible-exceptions-0.1.1.4@exten_FEBYnjUcabpEXD3JqlYlJc
+                      filepath-1.4.0.0@filep_Ey7a1in9roBAE8bUFJ5R9m
+                      free-4.12.4@free_LEDWBfYq7or1UQsEbuMkWk ghc-prim-0.4.0.0
+                      hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I integer-gmp-1.0.0.0
+                      kan-extensions-4.2.3@kanex_GCQzlMzWfjMAfss4KagmLi
+                      lens-4.13@lens_6idrjC79FIX20kdNuZ6mCE
+                      mmorph-1.0.6@mmorp_42KUkOfzC6q3qCtAMiSHam
+                      monad-control-1.0.1.0@monad_7Tqv3C2ASZP4J7swGaIkqS
+                      mtl-2.2.1@mtl_Aue4leSeVkpKLsfHIV51E8
+                      network-2.6.2.1@netwo_A6pE0dLgMEk2GtUa1JtTJQ
+                      prelude-extras-0.4.0.3@prelu_1gQpKVfMHul71LsAFgGRhv
+                      pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC
+                      primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3
+                      profunctors-5.2@profu_AYhGmZJowvVFcoLtEhpyqO
+                      random-1.1@rando_9Kgekc9yEaLHLNUuw6paWL
+                      reflection-2.1.2@refle_Is9SiIf9zRHG2wDNDxPaS9
+                      scientific-0.3.4.6@scien_5s26qRhE5w04kI4pP1Rtwm
+                      semigroups-0.18.1@semig_Iivsiy35cmk8ISqG11MEap
+                      semigroupoids-5.0.1@semig_K5pPYL0uxLMD2QVvKcbzPf
+                      snap-0.14.0.7@snap_6GPj5fu1CsgKwE4lubhqik
+                      snap-core-0.9.8.0@snapc_LeD7JW8edKOKVcNJKNfo1o
+                      snaplet-sqlite-simple-0.4.8.3@snapl_EVcvZphzioh1GKLIEGpBEq
+                      snap-server-0.9.5.1@snaps_FOuAo5S7AtCHreynBKAdwZ
+                      sqlite-simple-0.4.9.0@sqlit_DAfDNdRjEcg8pYUAjYfpdN
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      streaming-commons-0.1.15.5@strea_EmmPiWycOZRDBDTh9xaABj
+                      tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6 template-haskell-2.10.0.0
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn
+                      transformers-base-0.4.4@trans_74WedXVmfaHHDJItmBRTVp
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+                      unix-2.7.1.0@unix_KZL8h98IqDM57kQSPo1mKx
+                      unix-compat-0.4.1.4@unixc_Km8uiabmElX5mrb8D4Fywe
+                      unordered-containers-0.2.7.0@unord_2BLx4faR35mFWLJj5xiBgm
+                      vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln
+                      zlib-0.6.1.1@zlib_7LjT7TSHX8U3VTy3t378Vu
+                      zlib-bindings-0.1.1.5@zlibb_4TLHzVhj5c37rqLzkivtLr
+                      zlib-enum-0.2.3.1@zlibe_0vMFCFBtq5X86FS1uoJqxg
+orphans: MonadRandom-0.4.2.3@Monad_I7tEJH7vOtsKQS7CpG48fz:Control.Monad.Random
+         aeson-0.9.0.1@aeson_7kzmP8EaHItJ9ePj7u6Xdz:Data.Aeson.Types.Generic
+         aeson-0.9.0.1@aeson_7kzmP8EaHItJ9ePj7u6Xdz:Data.Aeson.Types.Instances
+         attoparsec-0.13.0.2@attop_41FU8li3hiTHrQHazQNzh3:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.0.2@attop_41FU8li3hiTHrQHazQNzh3:Data.Attoparsec.Text.Internal
+         base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         base-orphans-0.5.4@baseo_0gFtKFBT26OGSKHmmdqdfx:Data.Orphans
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         configurator-0.3.0.0@confi_DkEPU0D3jb33mg0BYCnGkf:Data.Configurator.Instances
+         hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I:Data.Hashable.Generic
+         network-2.6.2.1@netwo_A6pE0dLgMEk2GtUa1JtTJQ:Network.Socket
+         network-2.6.2.1@netwo_A6pE0dLgMEk2GtUa1JtTJQ:Network.Socket.Types
+         reflection-2.1.2@refle_Is9SiIf9zRHG2wDNDxPaS9:Data.Reflection
+         snap-core-0.9.8.0@snapc_LeD7JW8edKOKVcNJKNfo1o:Snap.Internal.Instances
+         snap-core-0.9.8.0@snapc_LeD7JW8edKOKVcNJKNfo1o:Snap.Iteratee
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Format.Parse
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+family instance modules: adjunctions-4.3@adjun_C10YYg4JKnvECCafjMc7Cx:Data.Functor.Rep
+                         attoparsec-0.13.0.2@attop_41FU8li3hiTHrQHazQNzh3:Data.Attoparsec.Internal.Types
+                         base-4.8.2.0:Control.Applicative base-4.8.2.0:Data.Either
+                         base-4.8.2.0:Data.Functor.Identity base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:Data.Void
+                         base-4.8.2.0:GHC.Exts base-4.8.2.0:GHC.Generics
+                         base-4.8.2.0:GHC.TypeLits
+                         bifunctors-5.2@bifun_L0Ghdk6Opc6CwEeyCfklQC:Data.Bifunctor.Biff
+                         bifunctors-5.2@bifun_L0Ghdk6Opc6CwEeyCfklQC:Data.Bifunctor.Clown
+                         bifunctors-5.2@bifun_L0Ghdk6Opc6CwEeyCfklQC:Data.Bifunctor.Flip
+                         bifunctors-5.2@bifun_L0Ghdk6Opc6CwEeyCfklQC:Data.Bifunctor.Join
+                         bifunctors-5.2@bifun_L0Ghdk6Opc6CwEeyCfklQC:Data.Bifunctor.Joker
+                         bifunctors-5.2@bifun_L0Ghdk6Opc6CwEeyCfklQC:Data.Bifunctor.Product
+                         bifunctors-5.2@bifun_L0Ghdk6Opc6CwEeyCfklQC:Data.Bifunctor.Sum
+                         bifunctors-5.2@bifun_L0Ghdk6Opc6CwEeyCfklQC:Data.Bifunctor.Tannen
+                         bifunctors-5.2@bifun_L0Ghdk6Opc6CwEeyCfklQC:Data.Bifunctor.Wrapped
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui:Data.DList
+                         either-4.4.1.1@eithe_54U3iYXzqgo9xoUaZZ787k:Control.Monad.Trans.Either
+                         kan-extensions-4.2.3@kanex_GCQzlMzWfjMAfss4KagmLi:Data.Functor.Yoneda
+                         lens-4.13@lens_6idrjC79FIX20kdNuZ6mCE:Control.Lens.At
+                         lens-4.13@lens_6idrjC79FIX20kdNuZ6mCE:Control.Lens.Internal.Indexed
+                         lens-4.13@lens_6idrjC79FIX20kdNuZ6mCE:Control.Lens.Internal.Zoom
+                         lens-4.13@lens_6idrjC79FIX20kdNuZ6mCE:Control.Lens.Reified
+                         lens-4.13@lens_6idrjC79FIX20kdNuZ6mCE:Control.Lens.Tuple
+                         lens-4.13@lens_6idrjC79FIX20kdNuZ6mCE:Control.Lens.Wrapped
+                         monad-control-1.0.1.0@monad_7Tqv3C2ASZP4J7swGaIkqS:Control.Monad.Trans.Control
+                         pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3:Control.Monad.Primitive
+                         profunctors-5.2@profu_AYhGmZJowvVFcoLtEhpyqO:Data.Profunctor.Rep
+                         semigroups-0.18.1@semig_Iivsiy35cmk8ISqG11MEap:Data.List.NonEmpty
+                         semigroups-0.18.1@semig_Iivsiy35cmk8ISqG11MEap:Data.Semigroup
+                         tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6:Data.Tagged
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+                         unordered-containers-0.2.7.0@unord_2BLx4faR35mFWLJj5xiBgm:Data.HashMap.Base
+                         unordered-containers-0.2.7.0@unord_2BLx4faR35mFWLJj5xiBgm:Data.HashSet
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Primitive
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Storable
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed.Base
+                         zlib-0.6.1.1@zlib_7LjT7TSHX8U3VTy3t378Vu:Codec.Compression.Zlib.Stream
+import  -/  aeson-0.9.0.1@aeson_7kzmP8EaHItJ9ePj7u6Xdz:Data.Aeson ef1b56679d451e5c038a8b0c79a9fc81
+import  -/  aeson-0.9.0.1@aeson_7kzmP8EaHItJ9ePj7u6Xdz:Data.Aeson.TH cdc32b56d58dbb7b8e2fb464f87a8e4a
+import  -/  aeson-0.9.0.1@aeson_7kzmP8EaHItJ9ePj7u6Xdz:Data.Aeson.Types.Class fb72d38261eae930c84ba9d4b45599a0
+import  -/  aeson-0.9.0.1@aeson_7kzmP8EaHItJ9ePj7u6Xdz:Data.Aeson.Types.Instances 24ca44406f17b7e191c2ca0520c49899
+import  -/  aeson-0.9.0.1@aeson_7kzmP8EaHItJ9ePj7u6Xdz:Data.Aeson.Types.Internal 12abaf673be756bfcb5c8e033e1048bc
+import  -/  base-4.8.2.0:Control.Monad 480c5067477275068c9b98be08410df9
+import  -/  base-4.8.2.0:Data.Functor 5c701b0af1708f0192a25dfe14ce6274
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.Show 0e1d8380a8fb0cfb07ebeda3b70cbf38
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  Memegen.App 8dc5dc33723a68aa25e2b6df7118520f
+  exports: 8472b1e59a912cb2baa3971bd2990d25
+  AppState 23305d041ea5d15745225f40d158cf62
+import  -/  mtl-2.2.1@mtl_Aue4leSeVkpKLsfHIV51E8:Control.Monad.State 3c8114545920fee1e57c3d7a07c2d0d7
+import  -/  snap-0.14.0.7@snap_6GPj5fu1CsgKwE4lubhqik:Snap.Snaplet 94a6cfa2b856203e3545af217d337210
+import  -/  snap-0.14.0.7@snap_6GPj5fu1CsgKwE4lubhqik:Snap.Snaplet.Internal.Types eede9fbff2939a5a4b298aff2632cf52
+import  -/  snaplet-sqlite-simple-0.4.8.3@snapl_EVcvZphzioh1GKLIEGpBEq:Snap.Snaplet.SqliteSimple 40989e4fec97954ecc27aa42ee5364c1
+import  -/  sqlite-simple-0.4.9.0@sqlit_DAfDNdRjEcg8pYUAjYfpdN:Database.SQLite.Simple 2007d09832289ed0c84557a1a27b45ec
+import  -/  sqlite-simple-0.4.9.0@sqlit_DAfDNdRjEcg8pYUAjYfpdN:Database.SQLite.Simple.FromRow 708bafd72c64cd98c9ccadcf263453d7
+import  -/  sqlite-simple-0.4.9.0@sqlit_DAfDNdRjEcg8pYUAjYfpdN:Database.SQLite.Simple.Internal 8fa25c2ffa5e2d6afd9ecd54df42df9e
+import  -/  sqlite-simple-0.4.9.0@sqlit_DAfDNdRjEcg8pYUAjYfpdN:Database.SQLite.Simple.Types 40476a2e6f95cb48b33b595bc8783e64
+import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text b53ae191632883b10562be5cbaa0b22b
+import  -/  text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Internal d9b6b9a9dd535595b612aea5738b7466
+e4391200f542a5eb9c69f8ede91da51a
+  $fFromJSONMeme :: Data.Aeson.Types.Class.FromJSON Memegen.Db.Meme
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Memegen.Db.$fFromJSONMeme_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <Memegen.Db.Meme>_N)) -}
+31d0a487a516ef449a50b36f1c2597a5
+  $fFromJSONMeme1 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "imageFilepath"#) -}
+7d14c5461fdfdcd167f41f8a8079a3d7
+  $fFromJSONMeme2 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "bottomText"#) -}
+f8a4438a5c63a98206ab1a73b5061e83
+  $fFromJSONMeme3 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "topText"#) -}
+d38565b3d5ccef034baf4d095779ebd3
+  $fFromJSONMeme4 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "memeId"#) -}
+05a4de3d999376e5aa5fa53746267056
+  $fFromJSONMeme5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Object"#) -}
+2f9b810e16b54d9e1619573b2cb615a4
+  $fFromJSONMeme6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Memegen.Db.Meme"#) -}
+c1d8da2e9bc8df4cbcca0df13185c54e
+  $fFromJSONMeme7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Meme"#) -}
+e4391200f542a5eb9c69f8ede91da51a
+  $fFromJSONMeme_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser Memegen.Db.Meme
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ value :: Data.Aeson.Types.Internal.Value ->
+                 case value of wild {
+                   DEFAULT
+                   -> Data.Aeson.TH.parseTypeMismatch'
+                        @ Memegen.Db.Meme
+                        Memegen.Db.$fFromJSONMeme7
+                        Memegen.Db.$fFromJSONMeme6
+                        Memegen.Db.$fFromJSONMeme5
+                        (case wild of wild1 {
+                           Data.Aeson.Types.Internal.Array ds1 -> Data.Aeson.TH.valueConName5
+                           Data.Aeson.Types.Internal.String ds1 -> Data.Aeson.TH.valueConName4
+                           Data.Aeson.Types.Internal.Number ds1 -> Data.Aeson.TH.valueConName3
+                           Data.Aeson.Types.Internal.Bool ds1 -> Data.Aeson.TH.valueConName2
+                           Data.Aeson.Types.Internal.Null -> Data.Aeson.TH.valueConName1 })
+                   Data.Aeson.Types.Internal.Object recObj
+                   -> let {
+                        m :: Data.Aeson.Types.Internal.Parser GHC.Types.Int
+                        = case Memegen.Db.$fFromJSONMeme4 of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                          Data.Aeson.TH.$w$clookupField
+                            @ GHC.Types.Int
+                            Data.Aeson.Types.Instances.$fFromJSONInt_$cparseJSON
+                              `cast`
+                            (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0] <GHC.Types.Int>_N))
+                            Memegen.Db.$fFromJSONMeme6
+                            Memegen.Db.$fFromJSONMeme7
+                            recObj
+                            ww1
+                            ww2
+                            ww3 }
+                      } in
+                      let {
+                        e :: Data.Aeson.Types.Internal.Parser Data.Text.Internal.Text
+                        = case Memegen.Db.$fFromJSONMeme3 of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                          Data.Aeson.TH.$w$clookupField
+                            @ Data.Text.Internal.Text
+                            Data.Aeson.Types.Instances.$fFromJSONText0_$cparseJSON
+                              `cast`
+                            (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                                      <Data.Text.Internal.Text>_N))
+                            Memegen.Db.$fFromJSONMeme6
+                            Memegen.Db.$fFromJSONMeme7
+                            recObj
+                            ww1
+                            ww2
+                            ww3 }
+                      } in
+                      let {
+                        e1 :: Data.Aeson.Types.Internal.Parser Data.Text.Internal.Text
+                        = case Memegen.Db.$fFromJSONMeme2 of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                          Data.Aeson.TH.$w$clookupField
+                            @ Data.Text.Internal.Text
+                            Data.Aeson.Types.Instances.$fFromJSONText0_$cparseJSON
+                              `cast`
+                            (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                                      <Data.Text.Internal.Text>_N))
+                            Memegen.Db.$fFromJSONMeme6
+                            Memegen.Db.$fFromJSONMeme7
+                            recObj
+                            ww1
+                            ww2
+                            ww3 }
+                      } in
+                      let {
+                        e2 :: Data.Aeson.Types.Internal.Parser Data.Text.Internal.Text
+                        = case Memegen.Db.$fFromJSONMeme1 of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                          Data.Aeson.TH.$w$clookupField
+                            @ Data.Text.Internal.Text
+                            Data.Aeson.Types.Instances.$fFromJSONText0_$cparseJSON
+                              `cast`
+                            (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                                      <Data.Text.Internal.Text>_N))
+                            Memegen.Db.$fFromJSONMeme6
+                            Memegen.Db.$fFromJSONMeme7
+                            recObj
+                            ww1
+                            ww2
+                            ww3 }
+                      } in
+                      (\ @ (f :: * -> *)
+                         @ r
+                         kf :: Data.Aeson.Types.Internal.Failure f r
+                         ks :: Data.Aeson.Types.Internal.Success Memegen.Db.Meme f r ->
+                       m `cast`
+                       (Data.Aeson.Types.Internal.NTCo:Parser[0] <GHC.Types.Int>_R)
+                         @ f
+                         @ r
+                         kf
+                         (\ a30 :: GHC.Types.Int ->
+                          e `cast`
+                          (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                               <Data.Text.Internal.Text>_R)
+                            @ f
+                            @ r
+                            kf
+                            (\ a31 :: Data.Text.Internal.Text ->
+                             e1
+                               `cast`
+                             (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                  <Data.Text.Internal.Text>_R)
+                               @ f
+                               @ r
+                               kf
+                               (\ a3 :: Data.Text.Internal.Text ->
+                                e2
+                                  `cast`
+                                (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                     <Data.Text.Internal.Text>_R)
+                                  @ f
+                                  @ r
+                                  kf
+                                  (\ a4 :: Data.Text.Internal.Text ->
+                                   ks (Memegen.Db.Meme a30 a31 a3 a4))))))
+                        `cast`
+                      (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                <Memegen.Db.Meme>_R)) }) -}
+e4391200f542a5eb9c69f8ede91da51a
+  $fFromRowMeme ::
+    Database.SQLite.Simple.FromRow.FromRow Memegen.Db.Meme
+  DFunId[0]
+  {- Arity: 1, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Memegen.Db.$fFromRowMeme_$cfromRow
+                  `cast`
+                (Sym (Database.SQLite.Simple.FromRow.NTCo:FromRow[0]) <Memegen.Db.Meme>_N) -}
+e4391200f542a5eb9c69f8ede91da51a
+  $fFromRowMeme1 ::
+    Database.SQLite.Simple.Internal.RowParseRO
+    -> (GHC.Types.Int, [Database.SQLite3.SQLData])
+    -> Database.SQLite.Simple.Ok.Ok
+         (Memegen.Db.Meme, (GHC.Types.Int, [Database.SQLite3.SQLData]))
+  {- Arity: 1,
+     Unfolding: (Database.SQLite.Simple.Internal.$fApplicativeRowParser3
+                   @ Data.Text.Internal.Text
+                   @ Memegen.Db.Meme
+                   Memegen.Db.$fFromRowMeme3
+                     `cast`
+                   (Trans
+                        (<Database.SQLite.Simple.Internal.RowParseRO>_R
+                         ->_R Sym (Control.Monad.Trans.State.Strict.NTCo:StateT[0]
+                                       <(GHC.Types.Int, [Database.SQLite3.SQLData])>_N
+                                       <Database.SQLite.Simple.Ok.Ok>_R
+                                       <Data.Text.Internal.Text -> Memegen.Db.Meme>_N))
+                        (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                  <Database.SQLite.Simple.Internal.RowParseRO>_R
+                                  <Control.Monad.Trans.State.Strict.StateT
+                                     (GHC.Types.Int, [Database.SQLite3.SQLData])
+                                     Database.SQLite.Simple.Ok.Ok>_R
+                                  <Data.Text.Internal.Text -> Memegen.Db.Meme>_N)))
+                   Memegen.Db.$fFromRowMeme2
+                     `cast`
+                   (Trans
+                        (<Database.SQLite.Simple.Internal.RowParseRO>_R
+                         ->_R Sym (Control.Monad.Trans.State.Strict.NTCo:StateT[0]
+                                       <(GHC.Types.Int, [Database.SQLite3.SQLData])>_N
+                                       <Database.SQLite.Simple.Ok.Ok>_R
+                                       <Data.Text.Internal.Text>_N))
+                        (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                  <Database.SQLite.Simple.Internal.RowParseRO>_R
+                                  <Control.Monad.Trans.State.Strict.StateT
+                                     (GHC.Types.Int, [Database.SQLite3.SQLData])
+                                     Database.SQLite.Simple.Ok.Ok>_R
+                                  <Data.Text.Internal.Text>_N)))) -}
+089d6192809b564fc8a6e54ea5cbcf42
+  $fFromRowMeme2 ::
+    Database.SQLite.Simple.Internal.RowParseRO
+    -> (GHC.Types.Int, [Database.SQLite3.SQLData])
+    -> Database.SQLite.Simple.Ok.Ok
+         (Data.Text.Internal.Text,
+          (GHC.Types.Int, [Database.SQLite3.SQLData]))
+  {- Arity: 2, Strictness: <S,1*U(U)><S(SL),1*U(1*U(U),U)>,
+     Unfolding: InlineRule (2, True, False)
+                (\ w1 :: Database.SQLite.Simple.Internal.RowParseRO
+                   w2 :: (GHC.Types.Int, [Database.SQLite3.SQLData]) ->
+                 case w1
+                        `cast`
+                      (Database.SQLite.Simple.Internal.NTCo:RowParseRO[0]) of ww { GHC.Types.I# ww1 ->
+                 case w2 of ww2 { (,) ww3 ww4 ->
+                 case ww3 of ww5 { GHC.Types.I# ww6 ->
+                 Database.SQLite.Simple.FromRow.$wa
+                   @ Data.Text.Internal.Text
+                   Database.SQLite.Simple.FromField.$fFromFieldText0_$cfromField
+                   ww1
+                   ww6
+                   ww4 } } }) -}
+e4391200f542a5eb9c69f8ede91da51a
+  $fFromRowMeme3 ::
+    Database.SQLite.Simple.Internal.RowParseRO
+    -> (GHC.Types.Int, [Database.SQLite3.SQLData])
+    -> Database.SQLite.Simple.Ok.Ok
+         (Data.Text.Internal.Text -> Memegen.Db.Meme,
+          (GHC.Types.Int, [Database.SQLite3.SQLData]))
+  {- Arity: 1,
+     Unfolding: (Database.SQLite.Simple.Internal.$fApplicativeRowParser3
+                   @ Data.Text.Internal.Text
+                   @ (Data.Text.Internal.Text -> Memegen.Db.Meme)
+                   Memegen.Db.$fFromRowMeme4
+                     `cast`
+                   (Trans
+                        (<Database.SQLite.Simple.Internal.RowParseRO>_R
+                         ->_R Sym (Control.Monad.Trans.State.Strict.NTCo:StateT[0]
+                                       <(GHC.Types.Int, [Database.SQLite3.SQLData])>_N
+                                       <Database.SQLite.Simple.Ok.Ok>_R
+                                       <Data.Text.Internal.Text
+                                        -> Data.Text.Internal.Text -> Memegen.Db.Meme>_N))
+                        (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                  <Database.SQLite.Simple.Internal.RowParseRO>_R
+                                  <Control.Monad.Trans.State.Strict.StateT
+                                     (GHC.Types.Int, [Database.SQLite3.SQLData])
+                                     Database.SQLite.Simple.Ok.Ok>_R
+                                  <Data.Text.Internal.Text
+                                   -> Data.Text.Internal.Text -> Memegen.Db.Meme>_N)))
+                   Memegen.Db.$fFromRowMeme2
+                     `cast`
+                   (Trans
+                        (<Database.SQLite.Simple.Internal.RowParseRO>_R
+                         ->_R Sym (Control.Monad.Trans.State.Strict.NTCo:StateT[0]
+                                       <(GHC.Types.Int, [Database.SQLite3.SQLData])>_N
+                                       <Database.SQLite.Simple.Ok.Ok>_R
+                                       <Data.Text.Internal.Text>_N))
+                        (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                  <Database.SQLite.Simple.Internal.RowParseRO>_R
+                                  <Control.Monad.Trans.State.Strict.StateT
+                                     (GHC.Types.Int, [Database.SQLite3.SQLData])
+                                     Database.SQLite.Simple.Ok.Ok>_R
+                                  <Data.Text.Internal.Text>_N)))) -}
+e4391200f542a5eb9c69f8ede91da51a
+  $fFromRowMeme4 ::
+    Database.SQLite.Simple.Internal.RowParseRO
+    -> (GHC.Types.Int, [Database.SQLite3.SQLData])
+    -> Database.SQLite.Simple.Ok.Ok
+         (Data.Text.Internal.Text
+          -> Data.Text.Internal.Text -> Memegen.Db.Meme,
+          (GHC.Types.Int, [Database.SQLite3.SQLData]))
+  {- Arity: 1,
+     Unfolding: (Database.SQLite.Simple.Internal.$fApplicativeRowParser3
+                   @ Data.Text.Internal.Text
+                   @ (Data.Text.Internal.Text
+                      -> Data.Text.Internal.Text -> Memegen.Db.Meme)
+                   Memegen.Db.$fFromRowMeme5
+                     `cast`
+                   (Trans
+                        (<Database.SQLite.Simple.Internal.RowParseRO>_R
+                         ->_R Sym (Control.Monad.Trans.State.Strict.NTCo:StateT[0]
+                                       <(GHC.Types.Int, [Database.SQLite3.SQLData])>_N
+                                       <Database.SQLite.Simple.Ok.Ok>_R
+                                       <Data.Text.Internal.Text
+                                        -> Data.Text.Internal.Text
+                                        -> Data.Text.Internal.Text
+                                        -> Memegen.Db.Meme>_N))
+                        (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                  <Database.SQLite.Simple.Internal.RowParseRO>_R
+                                  <Control.Monad.Trans.State.Strict.StateT
+                                     (GHC.Types.Int, [Database.SQLite3.SQLData])
+                                     Database.SQLite.Simple.Ok.Ok>_R
+                                  <Data.Text.Internal.Text
+                                   -> Data.Text.Internal.Text
+                                   -> Data.Text.Internal.Text
+                                   -> Memegen.Db.Meme>_N)))
+                   Memegen.Db.$fFromRowMeme2
+                     `cast`
+                   (Trans
+                        (<Database.SQLite.Simple.Internal.RowParseRO>_R
+                         ->_R Sym (Control.Monad.Trans.State.Strict.NTCo:StateT[0]
+                                       <(GHC.Types.Int, [Database.SQLite3.SQLData])>_N
+                                       <Database.SQLite.Simple.Ok.Ok>_R
+                                       <Data.Text.Internal.Text>_N))
+                        (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                  <Database.SQLite.Simple.Internal.RowParseRO>_R
+                                  <Control.Monad.Trans.State.Strict.StateT
+                                     (GHC.Types.Int, [Database.SQLite3.SQLData])
+                                     Database.SQLite.Simple.Ok.Ok>_R
+                                  <Data.Text.Internal.Text>_N)))) -}
+e4391200f542a5eb9c69f8ede91da51a
+  $fFromRowMeme5 ::
+    Database.SQLite.Simple.Internal.RowParseRO
+    -> (GHC.Types.Int, [Database.SQLite3.SQLData])
+    -> Database.SQLite.Simple.Ok.Ok
+         (Data.Text.Internal.Text
+          -> Data.Text.Internal.Text
+          -> Data.Text.Internal.Text
+          -> Memegen.Db.Meme,
+          (GHC.Types.Int, [Database.SQLite3.SQLData]))
+  {- Arity: 2, Strictness: <S,1*U(U)><S(SL),1*U(1*U(U),1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: Database.SQLite.Simple.Internal.RowParseRO
+                   w1 :: (GHC.Types.Int, [Database.SQLite3.SQLData]) ->
+                 case w `cast`
+                      (Database.SQLite.Simple.Internal.NTCo:RowParseRO[0]) of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { (,) ww3 ww4 ->
+                 case ww3 of ww5 { GHC.Types.I# ww6 ->
+                 Memegen.Db.$wa ww1 ww6 ww4 } } }) -}
+e4391200f542a5eb9c69f8ede91da51a
+  $fFromRowMeme_$cfromRow ::
+    Database.SQLite.Simple.Internal.RowParser Memegen.Db.Meme
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, True)
+                Memegen.Db.$fFromRowMeme1
+                  `cast`
+                (Trans
+                     (<Database.SQLite.Simple.Internal.RowParseRO>_R
+                      ->_R Sym (Control.Monad.Trans.State.Strict.NTCo:StateT[0]
+                                    <(GHC.Types.Int, [Database.SQLite3.SQLData])>_N
+                                    <Database.SQLite.Simple.Ok.Ok>_R
+                                    <Memegen.Db.Meme>_N))
+                     (Trans
+                          (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                    <Database.SQLite.Simple.Internal.RowParseRO>_R
+                                    <Control.Monad.Trans.State.Strict.StateT
+                                       (GHC.Types.Int, [Database.SQLite3.SQLData])
+                                       Database.SQLite.Simple.Ok.Ok>_R
+                                    <Memegen.Db.Meme>_N))
+                          (Sym (Database.SQLite.Simple.Internal.NTCo:RowParser[0]) <Memegen.Db.Meme>_N))) -}
+e4391200f542a5eb9c69f8ede91da51a
+  $fShowMeme :: GHC.Show.Show Memegen.Db.Meme
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Memegen.Db.Meme
+                  Memegen.Db.$fShowMeme_$cshowsPrec
+                  Memegen.Db.$fShowMeme_$cshow
+                  Memegen.Db.$fShowMeme_$cshowList -}
+e4391200f542a5eb9c69f8ede91da51a
+  $fShowMeme1 :: Memegen.Db.Meme -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ w :: Memegen.Db.Meme w1 :: GHC.Base.String ->
+                 case w of ww { Memegen.Db.Meme ww1 ww2 ww3 ww4 ->
+                 Memegen.Db.$w$cshowsPrec 0 ww1 ww2 ww3 ww4 w1 }) -}
+e5bb90b654d94a0aae2358c88ceec11c
+  $fShowMeme2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Meme {"#) -}
+361e1226fbe74b3651b9f46481f437b6
+  $fShowMeme3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "}"#) -}
+c54d853592446bf37c487fc9226bbc32
+  $fShowMeme4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "imageFilepath = "#) -}
+2e5c987e84c90966ae8aef9871c197fa
+  $fShowMeme5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "bottomText = "#) -}
+0d95b9e745fedeb58088b8f1a66fb197
+  $fShowMeme6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "topText = "#) -}
+6b1b24aa66e75c2358d5ba8d00ff6954
+  $fShowMeme7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ", "#) -}
+a3c02608d9a105a14fe300d5d350d057
+  $fShowMeme8 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "memeId = "#) -}
+e4391200f542a5eb9c69f8ede91da51a
+  $fShowMeme_$cshow :: Memegen.Db.Meme -> GHC.Base.String
+  {- Arity: 1,
+     Strictness: <S,1*U(1*U(U),1*U(U,U,U),1*U(U,U,U),1*U(U,U,U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: Memegen.Db.Meme ->
+                 Memegen.Db.$fShowMeme_$cshowsPrec
+                   GHC.Show.shows18
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+e4391200f542a5eb9c69f8ede91da51a
+  $fShowMeme_$cshowList :: [Memegen.Db.Meme] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Memegen.Db.Meme
+                   Memegen.Db.$fShowMeme1) -}
+e4391200f542a5eb9c69f8ede91da51a
+  $fShowMeme_$cshowsPrec ::
+    GHC.Types.Int -> Memegen.Db.Meme -> GHC.Show.ShowS
+  {- Arity: 3,
+     Strictness: <S,1*U(U)><S,1*U(1*U(U),1*U(U,U,U),1*U(U,U,U),1*U(U,U,U))><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ w :: GHC.Types.Int
+                   w1 :: Memegen.Db.Meme
+                   w2 :: GHC.Base.String ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Memegen.Db.Meme ww3 ww4 ww5 ww6 ->
+                 Memegen.Db.$w$cshowsPrec ww1 ww3 ww4 ww5 ww6 w2 } }) -}
+e4391200f542a5eb9c69f8ede91da51a
+  $fToJSONMeme :: Data.Aeson.Types.Class.ToJSON Memegen.Db.Meme
+  DFunId[0]
+  {- Arity: 1, Strictness: <S,1*U(1*U(U),U,U,U)>m1,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Memegen.Db.$fToJSONMeme_$ctoJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:ToJSON[0]
+                          <Memegen.Db.Meme>_N)) -}
+e4391200f542a5eb9c69f8ede91da51a
+  $fToJSONMeme_$ctoJSON ::
+    Memegen.Db.Meme -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U(1*U(U),U,U,U)>m1,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: Memegen.Db.Meme ->
+                 case w of ww { Memegen.Db.Meme ww1 ww2 ww3 ww4 ->
+                 case Memegen.Db.$w$ctoJSON ww1 ww2 ww3 ww4 of ww5 { (##) ww6 ->
+                 Data.Aeson.Types.Internal.Object ww6 } }) -}
+ba15059716fec4eee15a1b2a94afde03
+  $s$fApplicativeHandler ::
+    GHC.Base.Applicative
+      (Snap.Snaplet.Internal.Types.Handler
+         Memegen.App.AppState Snap.Snaplet.SqliteSimple.Sqlite)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Snap.Snaplet.Internal.Types.Handler
+                       Memegen.App.AppState Snap.Snaplet.SqliteSimple.Sqlite)
+                  (Snap.Snaplet.Internal.Types.$fFunctorHandler
+                     @ Memegen.App.AppState
+                     @ Snap.Snaplet.SqliteSimple.Sqlite)
+                  (Snap.Snaplet.Internal.Types.$fApplicativeHandler_$cpure
+                     @ Memegen.App.AppState
+                     @ Snap.Snaplet.SqliteSimple.Sqlite
+                     (Snap.Snaplet.Internal.Types.$fFunctorHandler
+                        @ Memegen.App.AppState
+                        @ Snap.Snaplet.SqliteSimple.Sqlite))
+                  (Snap.Snaplet.Internal.Types.$fApplicativeHandler_$c<*>
+                     @ Memegen.App.AppState
+                     @ Snap.Snaplet.SqliteSimple.Sqlite
+                     (Snap.Snaplet.Internal.Types.$fFunctorHandler
+                        @ Memegen.App.AppState
+                        @ Snap.Snaplet.SqliteSimple.Sqlite))
+                  (Snap.Snaplet.Internal.Types.$fApplicativeHandler_$c*>
+                     @ Memegen.App.AppState
+                     @ Snap.Snaplet.SqliteSimple.Sqlite
+                     (Snap.Snaplet.Internal.Types.$fFunctorHandler
+                        @ Memegen.App.AppState
+                        @ Snap.Snaplet.SqliteSimple.Sqlite))
+                  (Snap.Snaplet.Internal.Types.$fApplicativeHandler_$c<*
+                     @ Memegen.App.AppState
+                     @ Snap.Snaplet.SqliteSimple.Sqlite
+                     (Snap.Snaplet.Internal.Types.$fFunctorHandler
+                        @ Memegen.App.AppState
+                        @ Snap.Snaplet.SqliteSimple.Sqlite)) -}
+872c96dc2841b2426fbddc8a9070f46e
+  $s$fHasSqliteHandler ::
+    Snap.Snaplet.SqliteSimple.HasSqlite
+      (Snap.Snaplet.Internal.Types.Handler
+         Memegen.App.AppState Snap.Snaplet.SqliteSimple.Sqlite)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Snap.Snaplet.Internal.Types.Handler
+                       Memegen.App.AppState Snap.Snaplet.SqliteSimple.Sqlite)
+                  Memegen.Db.$s$fHasSqliteHandler1
+                  (Snap.Snaplet.SqliteSimple.$fHasSqliteHandler_$cgetSqliteState
+                     @ Memegen.App.AppState
+                     Memegen.Db.$s$fHasSqliteHandler1) -}
+faf56ef77e3db4e37e747d4f0a1619ef
+  $s$fHasSqliteHandler1 ::
+    Control.Monad.CatchIO.MonadCatchIO
+      (Snap.Snaplet.Internal.Types.Handler
+         Memegen.App.AppState Snap.Snaplet.SqliteSimple.Sqlite)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Memegen.Db.$s$fHasSqliteHandler_$s$fMonadCatchIOHandler -}
+625b5fa1c0f07e9cd4936dc977361fa4
+  $s$fHasSqliteHandler2 ::
+    Control.Monad.IO.Class.MonadIO
+      (Snap.Snaplet.Internal.Types.Handler
+         Memegen.App.AppState Snap.Snaplet.SqliteSimple.Sqlite)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Memegen.Db.$s$fHasSqliteHandler_$s$fMonadIOHandler -}
+452cba24a7d47e3d3684d2fb2444c515
+  $s$fHasSqliteHandler3 ::
+    GHC.Base.Monad
+      (Snap.Snaplet.Internal.Types.Handler
+         Memegen.App.AppState Snap.Snaplet.SqliteSimple.Sqlite)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Memegen.Db.$s$fHasSqliteHandler_$s$fMonadHandler -}
+59f23e84bd185b34ac02405df234c546
+  $s$fHasSqliteHandler4 ::
+    GHC.Base.Applicative
+      (Snap.Snaplet.Internal.Types.Handler
+         Memegen.App.AppState Snap.Snaplet.SqliteSimple.Sqlite)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Memegen.Db.$s$fApplicativeHandler -}
+51c1ee59c4d8c49da62b6b23b6fb8f99
+  $s$fHasSqliteHandler_$s$fMonadCatchIOHandler ::
+    Control.Monad.CatchIO.MonadCatchIO
+      (Snap.Snaplet.Internal.Types.Handler
+         Memegen.App.AppState Snap.Snaplet.SqliteSimple.Sqlite)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Snap.Snaplet.Internal.Types.Handler
+                       Memegen.App.AppState Snap.Snaplet.SqliteSimple.Sqlite)
+                  Memegen.Db.$s$fHasSqliteHandler2
+                  (Snap.Snaplet.Internal.Types.$fMonadCatchIOHandler_$ccatch
+                     @ Memegen.App.AppState
+                     @ Snap.Snaplet.SqliteSimple.Sqlite
+                     Memegen.Db.$s$fHasSqliteHandler2)
+                  (Snap.Snaplet.Internal.Types.$fMonadCatchIOHandler_$cblock
+                     @ Memegen.App.AppState
+                     @ Snap.Snaplet.SqliteSimple.Sqlite
+                     Memegen.Db.$s$fHasSqliteHandler2)
+                  (Snap.Snaplet.Internal.Types.$fMonadCatchIOHandler_$cunblock
+                     @ Memegen.App.AppState
+                     @ Snap.Snaplet.SqliteSimple.Sqlite
+                     Memegen.Db.$s$fHasSqliteHandler2) -}
+d4f3bb7aecf65abe8fd038e3b2bf0dbf
+  $s$fHasSqliteHandler_$s$fMonadHandler ::
+    GHC.Base.Monad
+      (Snap.Snaplet.Internal.Types.Handler
+         Memegen.App.AppState Snap.Snaplet.SqliteSimple.Sqlite)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Snap.Snaplet.Internal.Types.Handler
+                       Memegen.App.AppState Snap.Snaplet.SqliteSimple.Sqlite)
+                  Memegen.Db.$s$fHasSqliteHandler4
+                  (Snap.Snaplet.Internal.Types.$fMonadHandler_$c>>=
+                     @ Memegen.App.AppState
+                     @ Snap.Snaplet.SqliteSimple.Sqlite
+                     Memegen.Db.$s$fHasSqliteHandler4)
+                  (Snap.Snaplet.Internal.Types.$fMonadHandler_$c>>
+                     @ Memegen.App.AppState
+                     @ Snap.Snaplet.SqliteSimple.Sqlite
+                     Memegen.Db.$s$fHasSqliteHandler4)
+                  (Snap.Snaplet.Internal.Types.$fMonadHandler_$creturn
+                     @ Memegen.App.AppState
+                     @ Snap.Snaplet.SqliteSimple.Sqlite
+                     Memegen.Db.$s$fHasSqliteHandler4)
+                  (Snap.Snaplet.Internal.Types.$fMonadHandler_$cfail
+                     @ Memegen.App.AppState
+                     @ Snap.Snaplet.SqliteSimple.Sqlite
+                     Memegen.Db.$s$fHasSqliteHandler4) -}
+1dd8b8171616edaee39e713cd6c6513e
+  $s$fHasSqliteHandler_$s$fMonadIOHandler ::
+    Control.Monad.IO.Class.MonadIO
+      (Snap.Snaplet.Internal.Types.Handler
+         Memegen.App.AppState Snap.Snaplet.SqliteSimple.Sqlite)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Snap.Snaplet.Internal.Types.Handler
+                       Memegen.App.AppState Snap.Snaplet.SqliteSimple.Sqlite)
+                  Memegen.Db.$s$fHasSqliteHandler3
+                  (Snap.Snaplet.Internal.Types.$fMonadIOHandler_$cliftIO
+                     @ Memegen.App.AppState
+                     @ Snap.Snaplet.SqliteSimple.Sqlite
+                     Memegen.Db.$s$fHasSqliteHandler3) -}
+679894aea492e05b3bd496b8dde7721e
+  $sexecute2 ::
+    (Data.Text.Internal.Text,
+     Data.Text.Internal.Text,
+     Data.Text.Internal.Text)
+    -> [Database.SQLite3.SQLData]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U,U)>m2,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: (Data.Text.Internal.Text,
+                         Data.Text.Internal.Text,
+                         Data.Text.Internal.Text) ->
+                 case w of ww { (,,) ww1 ww2 ww3 ->
+                 GHC.Types.:
+                   @ Database.SQLite3.SQLData
+                   (Database.SQLite3.$WSQLText ww1)
+                   (GHC.Types.:
+                      @ Database.SQLite3.SQLData
+                      (Database.SQLite3.$WSQLText ww2)
+                      (GHC.Types.:
+                         @ Database.SQLite3.SQLData
+                         (Database.SQLite3.$WSQLText ww3)
+                         (GHC.Types.[] @ Database.SQLite3.SQLData))) }) -}
+eb364f89cd3773ce2de436ee9b33d1c8
+  $w$cshowsPrec ::
+    GHC.Prim.Int#
+    -> GHC.Types.Int
+    -> Data.Text.Internal.Text
+    -> Data.Text.Internal.Text
+    -> Data.Text.Internal.Text
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 6,
+     Strictness: <L,U><L,1*U(U)><L,1*U(U,U,U)><L,1*U(U,U,U)><L,1*U(U,U,U)><L,U>,
+     Inline: [0],
+     Unfolding: (\ ww :: GHC.Prim.Int#
+                   ww1 :: GHC.Types.Int
+                   ww2 :: Data.Text.Internal.Text
+                   ww3 :: Data.Text.Internal.Text
+                   ww4 :: Data.Text.Internal.Text
+                   w :: GHC.Base.String ->
+                 let {
+                   g :: GHC.Base.String -> GHC.Base.String
+                     {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ x :: GHC.Base.String[OneShot] ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Memegen.Db.$fShowMeme8
+                       (case ww1 of ww5 { GHC.Types.I# ww6 ->
+                        case GHC.Show.$wshowSignedInt
+                               0
+                               ww6
+                               (GHC.Base.++
+                                  @ GHC.Types.Char
+                                  Memegen.Db.$fShowMeme7
+                                  (GHC.Base.++
+                                     @ GHC.Types.Char
+                                     Memegen.Db.$fShowMeme6
+                                     (case Data.Text.Show.$w$cshowsPrec
+                                             ww2
+                                             (GHC.Base.++
+                                                @ GHC.Types.Char
+                                                Memegen.Db.$fShowMeme7
+                                                (GHC.Base.++
+                                                   @ GHC.Types.Char
+                                                   Memegen.Db.$fShowMeme5
+                                                   (case Data.Text.Show.$w$cshowsPrec
+                                                           ww3
+                                                           (GHC.Base.++
+                                                              @ GHC.Types.Char
+                                                              Memegen.Db.$fShowMeme7
+                                                              (GHC.Base.++
+                                                                 @ GHC.Types.Char
+                                                                 Memegen.Db.$fShowMeme4
+                                                                 (case Data.Text.Show.$w$cshowsPrec
+                                                                         ww4
+                                                                         (GHC.Base.++
+                                                                            @ GHC.Types.Char
+                                                                            Memegen.Db.$fShowMeme3
+                                                                            x) of ww7 { (#,#) ww8 ww9 ->
+                                                                  GHC.Types.:
+                                                                    @ GHC.Types.Char
+                                                                    ww8
+                                                                    ww9 }))) of ww7 { (#,#) ww8 ww9 ->
+                                                    GHC.Types.:
+                                                      @ GHC.Types.Char
+                                                      ww8
+                                                      ww9 }))) of ww7 { (#,#) ww8 ww9 ->
+                                      GHC.Types.:
+                                        @ GHC.Types.Char
+                                        ww8
+                                        ww9 }))) of ww7 { (#,#) ww8 ww9 ->
+                        GHC.Types.: @ GHC.Types.Char ww8 ww9 } })
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11) of wild {
+                   GHC.Types.False
+                   -> GHC.Base.++ @ GHC.Types.Char Memegen.Db.$fShowMeme2 (g w)
+                   GHC.Types.True
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows9
+                        (GHC.Base.++
+                           @ GHC.Types.Char
+                           Memegen.Db.$fShowMeme2
+                           (g (GHC.Types.: @ GHC.Types.Char GHC.Show.shows8 w))) }) -}
+587545a92077682f973914872d1447f8
+  $w$ctoJSON ::
+    GHC.Types.Int
+    -> Data.Text.Internal.Text
+    -> Data.Text.Internal.Text
+    -> Data.Text.Internal.Text
+    -> (# Data.Aeson.Types.Internal.Object #)
+  {- Arity: 4, Strictness: <L,1*U(U)><L,U><L,U><L,U>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Types.Int
+                   ww1 :: Data.Text.Internal.Text
+                   ww2 :: Data.Text.Internal.Text
+                   ww3 :: Data.Text.Internal.Text ->
+                 case Data.Aeson.Types.Internal.$sfromList1
+                        @ Data.Aeson.Types.Internal.Value
+                        (GHC.Types.:
+                           @ Data.Aeson.Types.Internal.Pair
+                           (Memegen.Db.$fFromJSONMeme4,
+                            case ww of wild { GHC.Types.I# i ->
+                            case GHC.Integer.Type.smallInteger i of dt { DEFAULT ->
+                            Data.Aeson.Types.Internal.Number
+                              (Data.Scientific.Scientific dt 0) } })
+                           (GHC.Types.:
+                              @ Data.Aeson.Types.Internal.Pair
+                              (Memegen.Db.$fFromJSONMeme3,
+                               Data.Aeson.Types.Internal.$WString ww1)
+                              (GHC.Types.:
+                                 @ Data.Aeson.Types.Internal.Pair
+                                 (Memegen.Db.$fFromJSONMeme2,
+                                  Data.Aeson.Types.Internal.$WString ww2)
+                                 (GHC.Types.:
+                                    @ Data.Aeson.Types.Internal.Pair
+                                    (Memegen.Db.$fFromJSONMeme1,
+                                     Data.Aeson.Types.Internal.$WString ww3)
+                                    (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)))))
+                        (Data.HashMap.Base.Empty
+                           @ Data.Text.Internal.Text
+                           @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
+                 (# dt #) }) -}
+e4391200f542a5eb9c69f8ede91da51a
+  $wa ::
+    GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> [Database.SQLite3.SQLData]
+    -> Database.SQLite.Simple.Ok.Ok
+         (Data.Text.Internal.Text
+          -> Data.Text.Internal.Text
+          -> Data.Text.Internal.Text
+          -> Memegen.Db.Meme,
+          (GHC.Types.Int, [Database.SQLite3.SQLData]))
+  {- Arity: 3, Strictness: <L,U><L,U><L,1*U>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Prim.Int#
+                   ww1 :: GHC.Prim.Int#
+                   ww2 :: [Database.SQLite3.SQLData] ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww1 ww) of wild {
+                   GHC.Types.False
+                   -> case ww2 of wild1 {
+                        []
+                        -> case GHC.List.badHead
+                           ret_ty (Database.SQLite.Simple.Ok.Ok
+                                     (Data.Text.Internal.Text
+                                      -> Data.Text.Internal.Text
+                                      -> Data.Text.Internal.Text
+                                      -> Memegen.Db.Meme,
+                                      (GHC.Types.Int, [Database.SQLite3.SQLData])))
+                           of {}
+                        : x ds1
+                        -> case Database.SQLite.Simple.FromField.$w$stakeInt x of wild2 {
+                             Database.SQLite.Simple.Ok.Errors es
+                             -> Database.SQLite.Simple.Ok.Errors
+                                  @ (Data.Text.Internal.Text
+                                     -> Data.Text.Internal.Text
+                                     -> Data.Text.Internal.Text
+                                     -> Memegen.Db.Meme,
+                                     (GHC.Types.Int, [Database.SQLite3.SQLData]))
+                                  es
+                             Database.SQLite.Simple.Ok.Ok a4
+                             -> Database.SQLite.Simple.Ok.Ok
+                                  @ (Data.Text.Internal.Text
+                                     -> Data.Text.Internal.Text
+                                     -> Data.Text.Internal.Text
+                                     -> Memegen.Db.Meme,
+                                     (GHC.Types.Int, [Database.SQLite3.SQLData]))
+                                  (Memegen.Db.Meme a4, (GHC.Types.I# (GHC.Prim.+# ww1 1), ds1)) } }
+                   GHC.Types.True
+                   -> Database.SQLite.Simple.Ok.Errors
+                        @ (Data.Text.Internal.Text
+                           -> Data.Text.Internal.Text
+                           -> Data.Text.Internal.Text
+                           -> Memegen.Db.Meme,
+                           (GHC.Types.Int, [Database.SQLite3.SQLData]))
+                        (GHC.Types.:
+                           @ GHC.Exception.SomeException
+                           (GHC.Exception.SomeException
+                              @ Database.SQLite.Simple.Internal.ColumnOutOfBounds
+                              Database.SQLite.Simple.Internal.$fExceptionColumnOutOfBounds
+                              (Database.SQLite.Simple.Internal.ColumnOutOfBounds
+                                 (GHC.Prim.+# ww1 1)))
+                           (GHC.Types.[] @ GHC.Exception.SomeException)) }) -}
+2df77b64231a732ce1932d2e8521f1ac
+  $wa1 ::
+    GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> [Database.SQLite3.SQLData]
+    -> Database.SQLite.Simple.Ok.Ok
+         (Database.SQLite.Simple.Types.Only [GHC.Types.Char],
+          (GHC.Types.Int, [Database.SQLite3.SQLData]))
+  {- Arity: 3, Strictness: <L,U><L,U><L,1*U>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Prim.Int#
+                   ww1 :: GHC.Prim.Int#
+                   ww2 :: [Database.SQLite3.SQLData] ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww1 ww) of wild {
+                   GHC.Types.False
+                   -> case ww2 of wild1 {
+                        []
+                        -> case GHC.List.badHead
+                           ret_ty (Database.SQLite.Simple.Ok.Ok
+                                     (Database.SQLite.Simple.Types.Only [GHC.Types.Char],
+                                      (GHC.Types.Int, [Database.SQLite3.SQLData])))
+                           of {}
+                        : x ds1
+                        -> case Database.SQLite.Simple.FromField.$w$cfromField10
+                                  x of wild2 {
+                             Database.SQLite.Simple.Ok.Errors es
+                             -> Database.SQLite.Simple.Ok.Errors
+                                  @ (Database.SQLite.Simple.Types.Only [GHC.Types.Char],
+                                     (GHC.Types.Int, [Database.SQLite3.SQLData]))
+                                  es
+                             Database.SQLite.Simple.Ok.Ok a4
+                             -> Database.SQLite.Simple.Ok.Ok
+                                  @ (Database.SQLite.Simple.Types.Only [GHC.Types.Char],
+                                     (GHC.Types.Int, [Database.SQLite3.SQLData]))
+                                  (a4
+                                     `cast`
+                                   (Sym (Database.SQLite.Simple.Types.NTCo:Only[0]
+                                             <[GHC.Types.Char]>_R)),
+                                   (GHC.Types.I# (GHC.Prim.+# ww1 1), ds1)) } }
+                   GHC.Types.True
+                   -> Database.SQLite.Simple.Ok.Errors
+                        @ (Database.SQLite.Simple.Types.Only [GHC.Types.Char],
+                           (GHC.Types.Int, [Database.SQLite3.SQLData]))
+                        (GHC.Types.:
+                           @ GHC.Exception.SomeException
+                           (GHC.Exception.SomeException
+                              @ Database.SQLite.Simple.Internal.ColumnOutOfBounds
+                              Database.SQLite.Simple.Internal.$fExceptionColumnOutOfBounds
+                              (Database.SQLite.Simple.Internal.ColumnOutOfBounds
+                                 (GHC.Prim.+# ww1 1)))
+                           (GHC.Types.[] @ GHC.Exception.SomeException)) }) -}
+e82e6267cd7c62deb5330e3952a0b60e
+  $wa2 ::
+    Database.SQLite.Simple.Types.Only [GHC.Types.Char]
+    -> (# Database.SQLite3.SQLData, [Database.SQLite3.SQLData] #)
+  {- Arity: 1, Strictness: <L,1*U>, Inline: [0],
+     Unfolding: (\ w :: Database.SQLite.Simple.Types.Only
+                          [GHC.Types.Char] ->
+                 (# case GHC.ST.runSTRep
+                           @ Data.Text.Internal.Text
+                           (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                            case GHC.Prim.newByteArray# @ s1 8 s2 of ds1 { (#,#) ipv ipv1 ->
+                            Memegen.Db.createTables8
+                              @ s1
+                              (Data.Text.Array.MArray @ s1 ipv1)
+                              Memegen.Db.createTables7
+                              w `cast`
+                              (Database.SQLite.Simple.Types.NTCo:Only[0] <[GHC.Types.Char]>_R)
+                              0
+                              ipv }) of dt { Data.Text.Internal.Text ipv ipv1 ipv2 ->
+                    Database.SQLite3.SQLText dt },
+                    GHC.Types.[] @ Database.SQLite3.SQLData #)) -}
+e4391200f542a5eb9c69f8ede91da51a
+  data Meme
+    = Meme {memeId :: GHC.Types.Int,
+            topText :: Data.Text.Internal.Text,
+            bottomText :: Data.Text.Internal.Text,
+            imageFilepath :: Data.Text.Internal.Text}
+0cc0f13b08c1af094253fd2d636d11d9
+  bottomText :: Memegen.Db.Meme -> Data.Text.Internal.Text
+  RecSel Memegen.Db.Meme
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLSL),1*U(A,A,1*U(U,U,U),A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Memegen.Db.Meme ->
+                 case ds of wild { Memegen.Db.Meme ds1 ds2 ds3 ds4 -> ds3 }) -}
+2cbd73a8b7ed027825999e4ba36e861b
+  createTables ::
+    Database.SQLite.Simple.Internal.Connection -> GHC.Types.IO ()
+  {- Arity: 2, Strictness: <L,U(U)><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Memegen.Db.createTables1
+                  `cast`
+                (<Database.SQLite.Simple.Internal.Connection>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+752463522554d63f807dfe7fb2397ba8
+  createTables1 ::
+    Database.SQLite.Simple.Internal.Connection
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 2, Strictness: <L,U(U)><L,U>,
+     Unfolding: (\ conn :: Database.SQLite.Simple.Internal.Connection
+                   s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case Database.SQLite.Simple.query1
+                        @ (Database.SQLite.Simple.Types.Only GHC.Base.String)
+                        @ (Database.SQLite.Simple.Types.Only GHC.Base.String)
+                        Memegen.Db.createTables6
+                          `cast`
+                        (Sym (Database.SQLite.Simple.ToRow.NTCo:ToRow[0]
+                                  <Database.SQLite.Simple.Types.Only [GHC.Types.Char]>_N))
+                        Memegen.Db.createTables5
+                          `cast`
+                        (Trans
+                             (<Database.SQLite.Simple.Internal.RowParseRO>_R
+                              ->_R Sym (Control.Monad.Trans.State.Strict.NTCo:StateT[0]
+                                            <(GHC.Types.Int, [Database.SQLite3.SQLData])>_N
+                                            <Database.SQLite.Simple.Ok.Ok>_R
+                                            <Database.SQLite.Simple.Types.Only [GHC.Types.Char]>_N))
+                             (Trans
+                                  (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                            <Database.SQLite.Simple.Internal.RowParseRO>_R
+                                            <Control.Monad.Trans.State.Strict.StateT
+                                               (GHC.Types.Int, [Database.SQLite3.SQLData])
+                                               Database.SQLite.Simple.Ok.Ok>_R
+                                            <Database.SQLite.Simple.Types.Only [GHC.Types.Char]>_N))
+                                  (Trans
+                                       (Sym (Database.SQLite.Simple.Internal.NTCo:RowParser[0]))
+                                       (Sym (Database.SQLite.Simple.FromRow.NTCo:FromRow[0])) <Database.SQLite.Simple.Types.Only
+                                                                                                 [GHC.Types.Char]>_N)))
+                        conn
+                        Memegen.Db.createTables4
+                          `cast`
+                        (Sym (Database.SQLite.Simple.Types.NTCo:Query[0]))
+                        Memegen.Db.createTables3
+                          `cast`
+                        (Sym (Database.SQLite.Simple.Types.NTCo:Only[0]
+                                  <GHC.Base.String>_R))
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case ipv1 of wild {
+                   []
+                   -> Database.SQLite.Simple.execute_1
+                        conn
+                        Memegen.Db.createTables2
+                          `cast`
+                        (Sym (Database.SQLite.Simple.Types.NTCo:Query[0]))
+                        ipv
+                   : ds ds2
+                   -> case ds2 of wild1 {
+                        [] -> (# ipv, GHC.Tuple.() #)
+                        : ipv2 ipv3
+                        -> Database.SQLite.Simple.execute_1
+                             conn
+                             Memegen.Db.createTables2
+                               `cast`
+                             (Sym (Database.SQLite.Simple.Types.NTCo:Query[0]))
+                             ipv } } }) -}
+4b3e2d3d650251d5dbbfcd8873a91f71
+  createTables2 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "CREATE TABLE memes (id INTEGER PRIMARY KEY, top_text TEXT, bottom_text TEXT, image_filepath TEXT)"#) -}
+77524d267cf411581e4d13ecf0ddd5ac
+  createTables3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "memes"#) -}
+4d4a072e3ab965e98365051b2bccd594
+  createTables4 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "SELECT name FROM sqlite_master WHERE type='table' AND name=?"#) -}
+38a9363fa8a942ce309b9fede2f71f8f
+  createTables5 ::
+    Database.SQLite.Simple.Internal.RowParseRO
+    -> (GHC.Types.Int, [Database.SQLite3.SQLData])
+    -> Database.SQLite.Simple.Ok.Ok
+         (Database.SQLite.Simple.Types.Only [GHC.Types.Char],
+          (GHC.Types.Int, [Database.SQLite3.SQLData]))
+  {- Arity: 2, Strictness: <S,1*U(U)><S(SL),1*U(1*U(U),1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: Database.SQLite.Simple.Internal.RowParseRO
+                   w1 :: (GHC.Types.Int, [Database.SQLite3.SQLData]) ->
+                 case w `cast`
+                      (Database.SQLite.Simple.Internal.NTCo:RowParseRO[0]) of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { (,) ww3 ww4 ->
+                 case ww3 of ww5 { GHC.Types.I# ww6 ->
+                 Memegen.Db.$wa1 ww1 ww6 ww4 } } }) -}
+8bffdc90401c74202c4bf05dbcc367ab
+  createTables6 ::
+    Database.SQLite.Simple.Types.Only [GHC.Types.Char]
+    -> [Database.SQLite3.SQLData]
+  {- Arity: 1, Strictness: <L,1*U>m2, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: Database.SQLite.Simple.Types.Only [GHC.Types.Char] ->
+                 case Memegen.Db.$wa2 w of ww { (#,#) ww1 ww2 ->
+                 GHC.Types.: @ Database.SQLite3.SQLData ww1 ww2 }) -}
+2080d08df0ca576d06634710c1b49f8b
+  createTables7 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 4) -}
+9bec7afe9c2bd849230cb305a19ba9bf
+  createTables8 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+adec3403a77f523eae69d1663cd5b6fb
+  imageFilepath :: Memegen.Db.Meme -> Data.Text.Internal.Text
+  RecSel Memegen.Db.Meme
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLS),1*U(A,A,A,1*U(U,U,U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Memegen.Db.Meme ->
+                 case ds of wild { Memegen.Db.Meme ds1 ds2 ds3 ds4 -> ds4 }) -}
+f39ce327a0c8dc6af87bfaf2ea242402
+  listMemes ::
+    Snap.Snaplet.Internal.Types.Handler
+      Memegen.App.AppState
+      Snap.Snaplet.SqliteSimple.Sqlite
+      [Memegen.Db.Meme]
+  {- Unfolding: (Snap.Snaplet.SqliteSimple.withSqlite
+                   @ [Memegen.Db.Meme]
+                   @ (Snap.Snaplet.Internal.Types.Handler
+                        Memegen.App.AppState Snap.Snaplet.SqliteSimple.Sqlite)
+                   Memegen.Db.$s$fHasSqliteHandler
+                   Memegen.Db.listMemes1
+                     `cast`
+                   (<Database.SQLite.Simple.Internal.Connection>_R
+                    ->_R Sym (GHC.Types.NTCo:IO[0] <[Memegen.Db.Meme]>_R))) -}
+cdf123d426b2931ebf55c61ef8af740d
+  listMemes1 ::
+    Database.SQLite.Simple.Internal.Connection
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, [Memegen.Db.Meme] #)
+  {- Arity: 2,
+     Unfolding: (\ c :: Database.SQLite.Simple.Internal.Connection
+                   eta1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 Database.SQLite.Simple.query1
+                   @ ()
+                   @ Memegen.Db.Meme
+                   Database.SQLite.Simple.ToRow.$fToRow()_$ctoRow
+                     `cast`
+                   (Sym (Database.SQLite.Simple.ToRow.NTCo:ToRow[0] <()>_N))
+                   Memegen.Db.$fFromRowMeme1
+                     `cast`
+                   (Trans
+                        (<Database.SQLite.Simple.Internal.RowParseRO>_R
+                         ->_R Sym (Control.Monad.Trans.State.Strict.NTCo:StateT[0]
+                                       <(GHC.Types.Int, [Database.SQLite3.SQLData])>_N
+                                       <Database.SQLite.Simple.Ok.Ok>_R
+                                       <Memegen.Db.Meme>_N))
+                        (Trans
+                             (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                       <Database.SQLite.Simple.Internal.RowParseRO>_R
+                                       <Control.Monad.Trans.State.Strict.StateT
+                                          (GHC.Types.Int, [Database.SQLite3.SQLData])
+                                          Database.SQLite.Simple.Ok.Ok>_R
+                                       <Memegen.Db.Meme>_N))
+                             (Trans
+                                  (Sym (Database.SQLite.Simple.Internal.NTCo:RowParser[0]))
+                                  (Sym (Database.SQLite.Simple.FromRow.NTCo:FromRow[0])) <Memegen.Db.Meme>_N)))
+                   c
+                   Memegen.Db.listMemes2
+                     `cast`
+                   (Sym (Database.SQLite.Simple.Types.NTCo:Query[0]))
+                   GHC.Tuple.()
+                   eta1) -}
+c591b794790ee8b528a599b4abb3e5d1
+  listMemes2 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "SELECT id, top_text, bottom_text, image_filepath FROM memes ORDER BY id DESC"#) -}
+bdf61d2ccc9ab48bbe50d3a26f18dba5
+  memeId :: Memegen.Db.Meme -> GHC.Types.Int
+  RecSel Memegen.Db.Meme
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SLLL),1*U(1*U(U),A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Memegen.Db.Meme ->
+                 case ds of wild { Memegen.Db.Meme ds1 ds2 ds3 ds4 -> ds1 }) -}
+c058fc88a1b9791e037df057fd9dc8e3
+  saveMeme ::
+    Data.Text.Internal.Text
+    -> Data.Text.Internal.Text
+    -> Data.Text.Internal.Text
+    -> Snap.Snaplet.Internal.Types.Handler
+         Memegen.App.AppState Snap.Snaplet.SqliteSimple.Sqlite ()
+  {- Arity: 3, Strictness: <L,U><L,U><L,U>,
+     Unfolding: (\ top :: Data.Text.Internal.Text
+                   bottom :: Data.Text.Internal.Text
+                   filepath :: Data.Text.Internal.Text ->
+                 let {
+                   qs :: (Data.Text.Internal.Text,
+                          Data.Text.Internal.Text,
+                          Data.Text.Internal.Text)
+                     {- Strictness: m -}
+                   = (top, bottom, filepath)
+                 } in
+                 Snap.Snaplet.SqliteSimple.withSqlite
+                   @ ()
+                   @ (Snap.Snaplet.Internal.Types.Handler
+                        Memegen.App.AppState Snap.Snaplet.SqliteSimple.Sqlite)
+                   Memegen.Db.$s$fHasSqliteHandler
+                   (\ c :: Database.SQLite.Simple.Internal.Connection
+                      eta1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                    Database.SQLite.Simple.execute1
+                      @ (Data.Text.Internal.Text,
+                         Data.Text.Internal.Text,
+                         Data.Text.Internal.Text)
+                      Memegen.Db.$sexecute2
+                        `cast`
+                      (Sym (Database.SQLite.Simple.ToRow.NTCo:ToRow[0]
+                                <(Data.Text.Internal.Text,
+                                  Data.Text.Internal.Text,
+                                  Data.Text.Internal.Text)>_N))
+                      c
+                      Memegen.Db.saveMeme1
+                        `cast`
+                      (Sym (Database.SQLite.Simple.Types.NTCo:Query[0]))
+                      qs
+                      eta1)
+                     `cast`
+                   (<Database.SQLite.Simple.Internal.Connection>_R
+                    ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
+729f3c50458eeb9618b4c341bbc55755
+  saveMeme1 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "INSERT INTO memes (top_text, bottom_text, image_filepath) VALUES (?, ?, ?)"#) -}
+b48443ca93b64a70f9247cb4fedf7706
+  tableExists ::
+    Database.SQLite.Simple.Internal.Connection
+    -> GHC.Base.String -> GHC.Types.IO GHC.Types.Bool
+  {- Arity: 3, Strictness: <L,U(U)><L,U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Memegen.Db.tableExists1
+                  `cast`
+                (<Database.SQLite.Simple.Internal.Connection>_R
+                 ->_R <GHC.Base.String>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <GHC.Types.Bool>_R)) -}
+529195faf1a8a016555ea64d37751d5f
+  tableExists1 ::
+    Database.SQLite.Simple.Internal.Connection
+    -> GHC.Base.String
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Types.Bool #)
+  {- Arity: 3, Strictness: <L,U(U)><L,U><L,U>,
+     Unfolding: (\ conn :: Database.SQLite.Simple.Internal.Connection
+                   tblName :: GHC.Base.String
+                   s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case Database.SQLite.Simple.query1
+                        @ (Database.SQLite.Simple.Types.Only GHC.Base.String)
+                        @ (Database.SQLite.Simple.Types.Only GHC.Base.String)
+                        Memegen.Db.createTables6
+                          `cast`
+                        (Sym (Database.SQLite.Simple.ToRow.NTCo:ToRow[0]
+                                  <Database.SQLite.Simple.Types.Only [GHC.Types.Char]>_N))
+                        Memegen.Db.createTables5
+                          `cast`
+                        (Trans
+                             (<Database.SQLite.Simple.Internal.RowParseRO>_R
+                              ->_R Sym (Control.Monad.Trans.State.Strict.NTCo:StateT[0]
+                                            <(GHC.Types.Int, [Database.SQLite3.SQLData])>_N
+                                            <Database.SQLite.Simple.Ok.Ok>_R
+                                            <Database.SQLite.Simple.Types.Only [GHC.Types.Char]>_N))
+                             (Trans
+                                  (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                            <Database.SQLite.Simple.Internal.RowParseRO>_R
+                                            <Control.Monad.Trans.State.Strict.StateT
+                                               (GHC.Types.Int, [Database.SQLite3.SQLData])
+                                               Database.SQLite.Simple.Ok.Ok>_R
+                                            <Database.SQLite.Simple.Types.Only [GHC.Types.Char]>_N))
+                                  (Trans
+                                       (Sym (Database.SQLite.Simple.Internal.NTCo:RowParser[0]))
+                                       (Sym (Database.SQLite.Simple.FromRow.NTCo:FromRow[0])) <Database.SQLite.Simple.Types.Only
+                                                                                                 [GHC.Types.Char]>_N)))
+                        conn
+                        Memegen.Db.createTables4
+                          `cast`
+                        (Sym (Database.SQLite.Simple.Types.NTCo:Query[0]))
+                        tblName
+                          `cast`
+                        (Sym (Database.SQLite.Simple.Types.NTCo:Only[0]
+                                  <GHC.Base.String>_R))
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case ipv1 of wild {
+                   [] -> (# ipv, GHC.Types.False #)
+                   : ds ds2
+                   -> case ds2 of wild1 {
+                        [] -> (# ipv, GHC.Types.True #)
+                        : ipv2 ipv3 -> (# ipv, GHC.Types.False #) } } }) -}
+bece729363381497024c96804b615acd
+  topText :: Memegen.Db.Meme -> Data.Text.Internal.Text
+  RecSel Memegen.Db.Meme
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LSLL),1*U(A,1*U(U,U,U),A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Memegen.Db.Meme ->
+                 case ds of wild { Memegen.Db.Meme ds1 ds2 ds3 ds4 -> ds2 }) -}
+instance Data.Aeson.Types.Class.FromJSON [Memegen.Db.Meme]
+  = Memegen.Db.$fFromJSONMeme
+instance Database.SQLite.Simple.FromRow.FromRow [Memegen.Db.Meme]
+  = Memegen.Db.$fFromRowMeme
+instance GHC.Show.Show [Memegen.Db.Meme] = Memegen.Db.$fShowMeme
+instance Data.Aeson.Types.Class.ToJSON [Memegen.Db.Meme]
+  = Memegen.Db.$fToJSONMeme
+"SPEC/Memegen.Db $fApplicativeHandler @ AppState @ Sqlite" [ALWAYS] forall $dFunctor :: GHC.Base.Functor
+                                                                                          (Snap.Snaplet.Internal.Types.Handler
+                                                                                             Memegen.App.AppState
+                                                                                             Snap.Snaplet.SqliteSimple.Sqlite)
+  Snap.Snaplet.Internal.Types.$fApplicativeHandler @ Memegen.App.AppState
+                                                   @ Snap.Snaplet.SqliteSimple.Sqlite
+                                                   $dFunctor
+  = Memegen.Db.$s$fApplicativeHandler
+"SPEC/Memegen.Db $fHasSqliteHandler @ AppState" [ALWAYS] forall $dMonadCatchIO :: Control.Monad.CatchIO.MonadCatchIO
+                                                                                    (Snap.Snaplet.Internal.Types.Handler
+                                                                                       Memegen.App.AppState
+                                                                                       Snap.Snaplet.SqliteSimple.Sqlite)
+  Snap.Snaplet.SqliteSimple.$fHasSqliteHandler @ Memegen.App.AppState
+                                               $dMonadCatchIO
+  = Memegen.Db.$s$fHasSqliteHandler
+"SPEC/Memegen.Db $fMonadCatchIOHandler @ AppState @ Sqlite" [ALWAYS] forall $dMonadIO :: Control.Monad.IO.Class.MonadIO
+                                                                                           (Snap.Snaplet.Internal.Types.Handler
+                                                                                              Memegen.App.AppState
+                                                                                              Snap.Snaplet.SqliteSimple.Sqlite)
+  Snap.Snaplet.Internal.Types.$fMonadCatchIOHandler @ Memegen.App.AppState
+                                                    @ Snap.Snaplet.SqliteSimple.Sqlite
+                                                    $dMonadIO
+  = Memegen.Db.$s$fHasSqliteHandler_$s$fMonadCatchIOHandler
+"SPEC/Memegen.Db $fMonadHandler @ AppState @ Sqlite" [ALWAYS] forall $dApplicative :: GHC.Base.Applicative
+                                                                                        (Snap.Snaplet.Internal.Types.Handler
+                                                                                           Memegen.App.AppState
+                                                                                           Snap.Snaplet.SqliteSimple.Sqlite)
+  Snap.Snaplet.Internal.Types.$fMonadHandler @ Memegen.App.AppState
+                                             @ Snap.Snaplet.SqliteSimple.Sqlite
+                                             $dApplicative
+  = Memegen.Db.$s$fHasSqliteHandler_$s$fMonadHandler
+"SPEC/Memegen.Db $fMonadIOHandler @ AppState @ Sqlite" [ALWAYS] forall $dMonad :: GHC.Base.Monad
+                                                                                    (Snap.Snaplet.Internal.Types.Handler
+                                                                                       Memegen.App.AppState
+                                                                                       Snap.Snaplet.SqliteSimple.Sqlite)
+  Snap.Snaplet.Internal.Types.$fMonadIOHandler @ Memegen.App.AppState
+                                               @ Snap.Snaplet.SqliteSimple.Sqlite
+                                               $dMonad
+  = Memegen.Db.$s$fHasSqliteHandler_$s$fMonadIOHandler
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

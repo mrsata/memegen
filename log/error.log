@@ -1,0 +1,87 @@
+[22/Jul/2016:12:57:44 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[22/Jul/2016:13:00:40 +0200] Server.httpServe: SHUTDOWN
+[22/Jul/2016:13:00:40 +0200] Server.httpServe: BACKEND STOPPED
+[22/Jul/2016:13:01:08 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[22/Jul/2016:13:06:22 +0200] Server.httpServe: SHUTDOWN
+[22/Jul/2016:13:06:22 +0200] Server.httpServe: BACKEND STOPPED
+[22/Jul/2016:13:08:52 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[22/Jul/2016:13:21:20 +0200] Server.httpServe: SHUTDOWN
+[22/Jul/2016:13:21:20 +0200] Server.httpServe: BACKEND STOPPED
+[22/Jul/2016:13:34:54 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[22/Jul/2016:18:27:59 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[22/Jul/2016:18:36:09 +0200] Server.httpServe: SHUTDOWN
+[22/Jul/2016:18:36:09 +0200] Server.httpServe: BACKEND STOPPED
+[22/Jul/2016:18:36:57 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[23/Jul/2016:11:25:21 +0200] Server.httpServe: SHUTDOWN
+[23/Jul/2016:11:25:21 +0200] Server.httpServe: BACKEND STOPPED
+[23/Jul/2016:15:07:40 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[23/Jul/2016:15:08:35 +0200] During processing of request from 127.0.0.1:63510
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:63510\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          Content-Length: 394606\n User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41\n Upgrade-Insecure-Requests: 1\n Origin: null\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryCsDXee1r3t8UjJ07\n Accept-Encoding: gzip, deflate, lzma\n Cache-Control: max-age=0\n Accept-Language: en-US,en;q=0.8\n      ========================================\n    content-length: Just 394606\n    method: POST\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: upload\n    contextpath: /\n    URI: /upload\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+user error (Loading image)
+[23/Jul/2016:15:09:54 +0200] During processing of request from 127.0.0.1:63510
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:63510\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          Content-Length: 25465\n User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41\n Upgrade-Insecure-Requests: 1\n Origin: null\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Content-Type: multipart/form-data; boundary=----WebKitFormBoundarykaWD7AyZE4mqrl35\n Accept-Encoding: gzip, deflate, lzma\n Cache-Control: max-age=0\n Accept-Language: en-US,en;q=0.8\n      ========================================\n    content-length: Just 25465\n    method: POST\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: upload\n    contextpath: /\n    URI: /upload\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+user error (Loading image)
+[23/Jul/2016:15:11:35 +0200] During processing of request from 127.0.0.1:63521
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:63521\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          Content-Length: 998174\n User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41\n Upgrade-Insecure-Requests: 1\n Origin: null\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryqmMM2QdLSbBwQEKb\n Accept-Encoding: gzip, deflate, lzma\n Cache-Control: max-age=0\n Accept-Language: en-US,en;q=0.8\n      ========================================\n    content-length: Just 998174\n    method: POST\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: upload\n    contextpath: /\n    URI: /upload\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+user error (fontconfig: Couldn't find font.)
+[23/Jul/2016:15:11:52 +0200] During processing of request from 127.0.0.1:63521
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:63521\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          Content-Length: 998145\n User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41\n Upgrade-Insecure-Requests: 1\n Origin: null\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryVt21Aq9UgwuruT6K\n Accept-Encoding: gzip, deflate, lzma\n Cache-Control: max-age=0\n Accept-Language: en-US,en;q=0.8\n      ========================================\n    content-length: Just 998145\n    method: POST\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: upload\n    contextpath: /\n    URI: /upload\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+user error (fontconfig: Couldn't find font.)
+[23/Jul/2016:15:12:37 +0200] During processing of request from 127.0.0.1:63521
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:63521\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          Content-Length: 998130\n User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41\n Upgrade-Insecure-Requests: 1\n Origin: null\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryM6TdyUSMrASOH9LO\n Accept-Encoding: gzip, deflate, lzma\n Cache-Control: max-age=0\n Accept-Language: en-US,en;q=0.8\n      ========================================\n    content-length: Just 998130\n    method: POST\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: upload\n    contextpath: /\n    URI: /upload\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+user error (fontconfig: Couldn't find font.)
+[23/Jul/2016:15:12:43 +0200] During processing of request from 127.0.0.1:63521
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:63521\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          Content-Length: 998126\n User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41\n Upgrade-Insecure-Requests: 1\n Origin: null\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryViTDbwEhyNmPTJ5G\n Accept-Encoding: gzip, deflate, lzma\n Cache-Control: max-age=0\n Accept-Language: en-US,en;q=0.8\n      ========================================\n    content-length: Just 998126\n    method: POST\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: upload\n    contextpath: /\n    URI: /upload\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+user error (fontconfig: Couldn't find font.)
+[23/Jul/2016:15:14:10 +0200] Server.httpServe: SHUTDOWN
+[23/Jul/2016:15:14:10 +0200] Server.httpServe: BACKEND STOPPED
+[23/Jul/2016:15:14:19 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[23/Jul/2016:15:14:38 +0200] During processing of request from 127.0.0.1:63555
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:63555\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          Content-Length: 998130\n User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41\n Upgrade-Insecure-Requests: 1\n Origin: null\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryrf7FxOx7sSsbCrOq\n Accept-Encoding: gzip, deflate, lzma\n Cache-Control: max-age=0\n Accept-Language: en-US,en;q=0.8\n      ========================================\n    content-length: Just 998130\n    method: POST\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: upload\n    contextpath: /\n    URI: /upload\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+user error (fontconfig: Couldn't find font.)
+[23/Jul/2016:15:15:29 +0200] During processing of request from 127.0.0.1:63555
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:63555\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          Content-Length: 998128\n User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41\n Upgrade-Insecure-Requests: 1\n Origin: null\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Content-Type: multipart/form-data; boundary=----WebKitFormBoundarynLa1jnYfB0Cz3LWf\n Accept-Encoding: gzip, deflate, lzma\n Cache-Control: max-age=0\n Accept-Language: en-US,en;q=0.8\n      ========================================\n    content-length: Just 998128\n    method: POST\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: upload\n    contextpath: /\n    URI: /upload\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+user error (fontconfig: Couldn't find font.)
+[23/Jul/2016:15:20:40 +0200] Server.httpServe: SHUTDOWN
+[23/Jul/2016:15:20:40 +0200] Server.httpServe: BACKEND STOPPED
+[08/Nov/2016:20:35:32 -0600] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[09/Nov/2016:01:10:16 -0600] Server.httpServe: SHUTDOWN
+[09/Nov/2016:01:10:16 -0600] Server.httpServe: BACKEND STOPPED
+[09/Nov/2016:01:10:48 -0600] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[09/Nov/2016:02:16:05 -0600] During processing of request from 127.0.0.1:59170
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:59170\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          Content-Length: 68261\n User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36 OPR/41.0.2353.46\n Upgrade-Insecure-Requests: 1\n Origin: null\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryebQm0jY5GhoiNwc3\n Accept-Encoding: gzip, deflate, lzma, br\n Cache-Control: max-age=0\n Accept-Language: en-US,en;q=0.8\n      ========================================\n    content-length: Just 68261\n    method: POST\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: upload\n    contextpath: /\n    URI: /upload\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+user error (fontconfig: Couldn't find font.)
+[09/Nov/2016:02:19:46 -0600] During processing of request from 127.0.0.1:59224
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:59224\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          Content-Length: 68261\n User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36 OPR/41.0.2353.46\n Upgrade-Insecure-Requests: 1\n Origin: null\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryAUFSE49DLOIZCmnJ\n Accept-Encoding: gzip, deflate, lzma, br\n Cache-Control: max-age=0\n Accept-Language: en-US,en;q=0.8\n      ========================================\n    content-length: Just 68261\n    method: POST\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: upload\n    contextpath: /\n    URI: /upload\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+user error (fontconfig: Couldn't find font.)
+[09/Nov/2016:02:20:35 -0600] Server.httpServe: SHUTDOWN
+[09/Nov/2016:02:20:35 -0600] Server.httpServe: BACKEND STOPPED
+[09/Nov/2016:02:21:02 -0600] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[09/Nov/2016:02:32:45 -0600] During processing of request from 127.0.0.1:59267
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:59267\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          Content-Length: 68261\n User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36 OPR/41.0.2353.46\n Upgrade-Insecure-Requests: 1\n Origin: null\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryXePinBA6nX34iwIY\n Accept-Encoding: gzip, deflate, lzma, br\n Cache-Control: max-age=0\n Accept-Language: en-US,en;q=0.8\n      ========================================\n    content-length: Just 68261\n    method: POST\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: upload\n    contextpath: /\n    URI: /upload\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+user error (fontconfig: Couldn't find font.)
+[09/Nov/2016:02:37:31 -0600] Server.httpServe: SHUTDOWN
+[09/Nov/2016:02:37:31 -0600] Server.httpServe: BACKEND STOPPED
+[09/Nov/2016:02:59:28 -0600] Server.httpServe: START, binding to [http://0.0.0.0:8000/]

@@ -1,0 +1,38 @@
+Configuring clientsession-0.9.1.1...
+Building clientsession-0.9.1.1...
+Preprocessing library clientsession-0.9.1.1...
+[1 of 2] Compiling System.LookupEnv ( src/System/LookupEnv.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/System/LookupEnv.o )
+[2 of 2] Compiling Web.ClientSession ( src/Web/ClientSession.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Web/ClientSession.o )
+
+src/Web/ClientSession.hs:61:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Web/ClientSession.hs:91:1: Warning:
+    The import of ‘Data.Tagged’ is redundant
+      except perhaps to import instances from ‘Data.Tagged’
+    To import instances alone, use: import Data.Tagged()
+
+src/Web/ClientSession.hs:95:1: Warning:
+    The import of ‘Crypto.Random’ is redundant
+      except perhaps to import instances from ‘Crypto.Random’
+    To import instances alone, use: import Crypto.Random()
+
+src/Web/ClientSession.hs:96:1: Warning:
+    The import of ‘Crypto.Types’ is redundant
+      except perhaps to import instances from ‘Crypto.Types’
+    To import instances alone, use: import Crypto.Types()
+
+src/Web/ClientSession.hs:267:37: Warning:
+    In the use of ‘A.initKey’ (imported from Crypto.Cipher.AES):
+    Deprecated: "use initAES"
+In-place registering clientsession-0.9.1.1...
+Preprocessing executable 'clientsession-generate' for clientsession-0.9.1.1...
+[1 of 1] Compiling Main             ( bin/generate.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/clientsession-generate/clientsession-generate-tmp/Main.o )
+Linking .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/clientsession-generate/clientsession-generate ...
+Installing library in
+/Users/zxy/.stack/snapshots/x86_64-osx/lts-6.2/7.10.3/lib/x86_64-osx-ghc-7.10.3/clientsession-0.9.1.1-JJrn3LuZNMxFPvztJuo22J
+Installing executable(s) in
+/Users/zxy/.stack/snapshots/x86_64-osx/lts-6.2/7.10.3/bin
+Registering clientsession-0.9.1.1...

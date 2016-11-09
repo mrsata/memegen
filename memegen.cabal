@@ -1,0 +1,69 @@
+name:                memegen
+version:             0.1.0.0
+synopsis:            Initial project template from stack
+description:         Please see README.md
+homepage:            https://github.com/mrsata/memegen#readme
+license:             BSD3
+license-file:        LICENSE
+author:              mrsata
+maintainer:          liuhanrick@gmail.com
+copyright:           2016 mrsata
+category:            Web
+build-type:          Simple
+-- extra-source-files:
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     Memegen.Lib
+                    --  export module App
+                     , Memegen.App
+                    --  export module Db
+                     , Memegen.Db
+                    --  export module Img
+                     , Memegen.Img
+  build-depends:       base >= 4.7 && < 5
+                     , snap
+                    --  dependency for hello
+                     , bytestring
+                    --  dependencies for upload
+                     , snap-core
+                     , enumerator
+                     , text
+                     , mtl
+                     , filepath
+                    --  dependency for upload directory
+                     , directory
+                    --  dependency for module App
+                     , lens
+                     , snaplet-sqlite-simple
+                    --  dependency for module Db
+                     , sqlite-simple
+                    --  dependency for storing the image in upload directory
+                     , containers
+                    --  dependency for meme in JSON
+                     , aeson
+                    --  dependency for Img
+                     , gd
+  default-language:    Haskell2010
+
+executable memegen-exe
+  hs-source-dirs:      app
+  main-is:             Main.hs
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base
+                     , memegen
+  default-language:    Haskell2010
+
+test-suite memegen-test
+  type:                exitcode-stdio-1.0
+  hs-source-dirs:      test
+  main-is:             Spec.hs
+  build-depends:       base
+                     , memegen
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/mrsata/memegen

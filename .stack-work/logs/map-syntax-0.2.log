@@ -1,0 +1,18 @@
+Configuring map-syntax-0.2...
+Building map-syntax-0.2...
+Preprocessing library map-syntax-0.2...
+[1 of 1] Compiling Data.Map.Syntax  ( src/Data/Map/Syntax.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Map/Syntax.o )
+
+src/Data/Map/Syntax.hs:49:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Data/Map/Syntax.hs:52:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+In-place registering map-syntax-0.2...
+Installing library in
+/Users/zxy/.stack/snapshots/x86_64-osx/lts-6.8/7.10.3/lib/x86_64-osx-ghc-7.10.3/map-syntax-0.2-LwMK8LUu1jdGT1hj2Syvzo
+Registering map-syntax-0.2...

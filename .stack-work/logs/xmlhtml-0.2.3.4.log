@@ -1,0 +1,42 @@
+Configuring xmlhtml-0.2.3.4...
+Building xmlhtml-0.2.3.4...
+Preprocessing library xmlhtml-0.2.3.4...
+[ 1 of 10] Compiling Text.XmlHtml.HTML.Meta ( src/Text/XmlHtml/HTML/Meta.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/XmlHtml/HTML/Meta.o )
+
+src/Text/XmlHtml/HTML/Meta.hs:13:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[ 2 of 10] Compiling Text.XmlHtml.Common ( src/Text/XmlHtml/Common.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/XmlHtml/Common.o )
+[ 3 of 10] Compiling Text.XmlHtml.TextParser ( src/Text/XmlHtml/TextParser.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/XmlHtml/TextParser.o )
+
+src/Text/XmlHtml/TextParser.hs:19:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[ 4 of 10] Compiling Text.XmlHtml.XML.Parse ( src/Text/XmlHtml/XML/Parse.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/XmlHtml/XML/Parse.o )
+[ 5 of 10] Compiling Text.XmlHtml.XML.Render ( src/Text/XmlHtml/XML/Render.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/XmlHtml/XML/Render.o )
+
+src/Text/XmlHtml/XML/Render.hs:8:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[ 6 of 10] Compiling Text.XmlHtml.HTML.Parse ( src/Text/XmlHtml/HTML/Parse.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/XmlHtml/HTML/Parse.o )
+[ 7 of 10] Compiling Text.XmlHtml.HTML.Render ( src/Text/XmlHtml/HTML/Render.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/XmlHtml/HTML/Render.o )
+
+src/Text/XmlHtml/HTML/Render.hs:9:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[ 8 of 10] Compiling Text.XmlHtml     ( src/Text/XmlHtml.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/XmlHtml.o )
+[ 9 of 10] Compiling Text.XmlHtml.Cursor ( src/Text/XmlHtml/Cursor.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/XmlHtml/Cursor.o )
+[10 of 10] Compiling Text.Blaze.Renderer.XmlHtml ( src/Text/Blaze/Renderer/XmlHtml.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Text/Blaze/Renderer/XmlHtml.o )
+
+src/Text/Blaze/Renderer/XmlHtml.hs:55:5: Warning:
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘go’:
+        Patterns not matched: _ (Text.Blaze.Internal.Comment _)
+In-place registering xmlhtml-0.2.3.4...
+Installing library in
+/Users/zxy/.stack/snapshots/x86_64-osx/lts-6.2/7.10.3/lib/x86_64-osx-ghc-7.10.3/xmlhtml-0.2.3.4-CoGJbgYyEpz7GiAp8a8cJG
+Registering xmlhtml-0.2.3.4...

@@ -1,0 +1,73 @@
+Configuring heist-0.14.1.4...
+Building heist-0.14.1.4...
+Preprocessing library heist-0.14.1.4...
+[ 1 of 21] Compiling Data.HeterogeneousEnvironment ( src/Data/HeterogeneousEnvironment.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/HeterogeneousEnvironment.o )
+[ 2 of 21] Compiling Heist.Internal.Types.HeistState ( src/Heist/Internal/Types/HeistState.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Heist/Internal/Types/HeistState.o )
+
+src/Heist/Internal/Types/HeistState.hs:42:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[ 3 of 21] Compiling Heist.Common     ( src/Heist/Common.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Heist/Common.o )
+
+src/Heist/Common.hs:8:1: Warning:
+    The import of ‘Applicative, <$>’
+    from module ‘Control.Applicative’ is redundant
+
+src/Heist/Common.hs:23:1: Warning:
+    The import of ‘Monoid’ from module ‘Data.Monoid’ is redundant
+[ 4 of 21] Compiling Heist.Compiled.Internal ( src/Heist/Compiled/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Heist/Compiled/Internal.o )
+[ 5 of 21] Compiling Heist.Compiled   ( src/Heist/Compiled.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Heist/Compiled.o )
+[ 6 of 21] Compiling Heist.Compiled.LowLevel ( src/Heist/Compiled/LowLevel.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Heist/Compiled/LowLevel.o )
+[ 7 of 21] Compiling Heist.Interpreted.Internal ( src/Heist/Interpreted/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Heist/Interpreted/Internal.o )
+[ 8 of 21] Compiling Heist.Interpreted ( src/Heist/Interpreted.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Heist/Interpreted.o )
+[ 9 of 21] Compiling Heist.Splices.Ignore ( src/Heist/Splices/Ignore.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Heist/Splices/Ignore.o )
+[10 of 21] Compiling Heist.Internal.Types ( src/Heist/Internal/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Heist/Internal/Types.o )
+
+src/Heist/Internal/Types.hs:24:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Heist/Internal/Types.hs:27:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[11 of 21] Compiling Heist.Splices.Apply ( src/Heist/Splices/Apply.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Heist/Splices/Apply.o )
+[12 of 21] Compiling Heist.Splices.Bind ( src/Heist/Splices/Bind.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Heist/Splices/Bind.o )
+[13 of 21] Compiling Heist.Splices.Cache ( src/Heist/Splices/Cache.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Heist/Splices/Cache.o )
+
+src/Heist/Splices/Cache.hs:38:1: Warning:
+    The import of ‘Data.Word’ is redundant
+      except perhaps to import instances from ‘Data.Word’
+    To import instances alone, use: import Data.Word()
+[14 of 21] Compiling Heist.Splices.Html ( src/Heist/Splices/Html.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Heist/Splices/Html.o )
+[15 of 21] Compiling Heist.Splices.Markdown ( src/Heist/Splices/Markdown.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Heist/Splices/Markdown.o )
+[16 of 21] Compiling Heist.Splices    ( src/Heist/Splices.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Heist/Splices.o )
+
+src/Heist/Splices.hs:12:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[17 of 21] Compiling Heist.Splices.BindStrict ( src/Heist/Splices/BindStrict.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Heist/Splices/BindStrict.o )
+[18 of 21] Compiling Heist.Splices.Json ( src/Heist/Splices/Json.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Heist/Splices/Json.o )
+[19 of 21] Compiling Heist.SpliceAPI  ( src/Heist/SpliceAPI.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Heist/SpliceAPI.o )
+
+src/Heist/SpliceAPI.hs:42:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[20 of 21] Compiling Heist            ( src/Heist.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Heist.o )
+
+src/Heist.hs:106:1: Warning:
+    Module ‘Heist.SpliceAPI’ is deprecated:
+      Use Data.Map.Syntax from the map-syntax package instead
+
+src/Heist.hs:166:25: Warning:
+    In the use of ‘free’ (imported from System.Directory.Tree):
+    Deprecated: "Use record 'dirTree'"
+[21 of 21] Compiling Heist.TemplateDirectory ( src/Heist/TemplateDirectory.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Heist/TemplateDirectory.o )
+In-place registering heist-0.14.1.4...
+Installing library in
+/Users/zxy/haskell/zurihac/codelab/memegen/.stack-work/install/x86_64-osx/lts-6.2/7.10.3/lib/x86_64-osx-ghc-7.10.3/heist-0.14.1.4-BrWwuyeWOXx35eaA3hL3bG
+Registering heist-0.14.1.4...

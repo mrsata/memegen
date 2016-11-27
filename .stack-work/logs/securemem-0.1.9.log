@@ -1,0 +1,18 @@
+Configuring securemem-0.1.9...
+Building securemem-0.1.9...
+Preprocessing library securemem-0.1.9...
+[1 of 1] Compiling Data.SecureMem   ( Data/SecureMem.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/SecureMem.o )
+
+Data/SecureMem.hs:34:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+Data/SecureMem.hs:35:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+In-place registering securemem-0.1.9...
+Installing library in
+/Users/zxy/.stack/snapshots/x86_64-osx/lts-6.8/7.10.3/lib/x86_64-osx-ghc-7.10.3/securemem-0.1.9-G6dZ7LcBMCWL87x7vQA9FR
+Registering securemem-0.1.9...

@@ -1,0 +1,112 @@
+Configuring snap-0.14.0.7...
+Building snap-0.14.0.7...
+Preprocessing library snap-0.14.0.7...
+[ 1 of 34] Compiling Snap.Snaplet.Internal.RST ( src/Snap/Snaplet/Internal/RST.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Internal/RST.o )
+
+src/Snap/Snaplet/Internal/RST.hs:12:1: Warning:
+    Module ‘Prelude’ does not export ‘catch’
+[ 2 of 34] Compiling Snap.Snaplet.Internal.Lensed ( src/Snap/Snaplet/Internal/Lensed.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Internal/Lensed.o )
+
+src/Snap/Snaplet/Internal/Lensed.hs:16:1: Warning:
+    Module ‘Prelude’ does not export ‘catch’
+[ 3 of 34] Compiling Snap.Snaplet.Internal.LensT ( src/Snap/Snaplet/Internal/LensT.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Internal/LensT.o )
+
+src/Snap/Snaplet/Internal/LensT.hs:14:1: Warning:
+    Module ‘Prelude’ does not export ‘catch’
+[ 4 of 34] Compiling Snap.Snaplet.Auth.Handlers.Errors ( src/Snap/Snaplet/Auth/Handlers/Errors.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Auth/Handlers/Errors.o )
+[ 5 of 34] Compiling Control.Access.RoleBased.Internal.Role ( src/Control/Access/RoleBased/Internal/Role.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Access/RoleBased/Internal/Role.o )
+[ 6 of 34] Compiling Control.Access.RoleBased.Internal.Rule ( src/Control/Access/RoleBased/Internal/Rule.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Access/RoleBased/Internal/Rule.o )
+
+src/Control/Access/RoleBased/Internal/Rule.hs:7:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[ 7 of 34] Compiling Control.Access.RoleBased.Internal.Types ( src/Control/Access/RoleBased/Internal/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Access/RoleBased/Internal/Types.o )
+[ 8 of 34] Compiling Control.Access.RoleBased.Role ( src/Control/Access/RoleBased/Role.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Access/RoleBased/Role.o )
+[ 9 of 34] Compiling Control.Access.RoleBased.Types ( src/Control/Access/RoleBased/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Access/RoleBased/Types.o )
+[10 of 34] Compiling Control.Access.RoleBased.Internal.RoleMap ( src/Control/Access/RoleBased/Internal/RoleMap.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Access/RoleBased/Internal/RoleMap.o )
+[11 of 34] Compiling Control.Access.RoleBased.Checker ( src/Control/Access/RoleBased/Checker.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Control/Access/RoleBased/Checker.o )
+[12 of 34] Compiling Snap.Snaplet.Session.SessionManager ( src/Snap/Snaplet/Session/SessionManager.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Session/SessionManager.o )
+[13 of 34] Compiling Snap.Snaplet.Session.SecureCookie ( src/Snap/Snaplet/Session/SecureCookie.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Session/SecureCookie.o )
+
+src/Snap/Snaplet/Session/SecureCookie.hs:18:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[14 of 34] Compiling Snap.Snaplet.Session.Common ( src/Snap/Snaplet/Session/Common.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Session/Common.o )
+
+src/Snap/Snaplet/Session/Common.hs:14:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[15 of 34] Compiling Snap.Snaplet.Config ( src/Snap/Snaplet/Config.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Config.o )
+[16 of 34] Compiling Snap.Snaplet.Internal.Types ( src/Snap/Snaplet/Internal/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Internal/Types.o )
+
+src/Snap/Snaplet/Internal/Types.hs:27:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[17 of 34] Compiling Snap.Snaplet.Internal.Initializer ( src/Snap/Snaplet/Internal/Initializer.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Internal/Initializer.o )
+
+src/Snap/Snaplet/Internal/Initializer.hs:29:1: Warning:
+    Module ‘Prelude’ does not export ‘catch’
+[18 of 34] Compiling Snap.Snaplet     ( src/Snap/Snaplet.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet.o )
+[19 of 34] Compiling Snap.Snaplet.Heist.Internal ( src/Snap/Snaplet/Heist/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Heist/Internal.o )
+[20 of 34] Compiling Snap.Snaplet.HeistNoClass ( src/Snap/Snaplet/HeistNoClass.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/HeistNoClass.o )
+
+src/Snap/Snaplet/HeistNoClass.hs:76:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[21 of 34] Compiling Snap.Snaplet.Heist ( src/Snap/Snaplet/Heist.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Heist.o )
+[22 of 34] Compiling Snap.Snaplet.Heist.Generic ( src/Snap/Snaplet/Heist/Generic.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Heist/Generic.o )
+[23 of 34] Compiling Snap.Snaplet.Heist.Interpreted ( src/Snap/Snaplet/Heist/Interpreted.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Heist/Interpreted.o )
+[24 of 34] Compiling Snap.Snaplet.Heist.Compiled ( src/Snap/Snaplet/Heist/Compiled.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Heist/Compiled.o )
+[25 of 34] Compiling Snap.Snaplet.Auth.Types ( src/Snap/Snaplet/Auth/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Auth/Types.o )
+
+src/Snap/Snaplet/Auth/Types.hs:9:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[26 of 34] Compiling Snap.Snaplet.Session ( src/Snap/Snaplet/Session.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Session.o )
+[27 of 34] Compiling Snap.Snaplet.Auth.AuthManager ( src/Snap/Snaplet/Auth/AuthManager.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Auth/AuthManager.o )
+[28 of 34] Compiling Snap.Snaplet.Auth.Handlers ( src/Snap/Snaplet/Auth/Handlers.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Auth/Handlers.o )
+[29 of 34] Compiling Snap.Snaplet.Auth.SpliceHelpers ( src/Snap/Snaplet/Auth/SpliceHelpers.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Auth/SpliceHelpers.o )
+
+src/Snap/Snaplet/Auth/SpliceHelpers.hs:31:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[30 of 34] Compiling Snap.Snaplet.Auth ( src/Snap/Snaplet/Auth.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Auth.o )
+[31 of 34] Compiling Snap.Snaplet.Auth.Backends.JsonFile ( src/Snap/Snaplet/Auth/Backends/JsonFile.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Auth/Backends/JsonFile.o )
+
+src/Snap/Snaplet/Auth/Backends/JsonFile.hs:13:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[32 of 34] Compiling Snap.Snaplet.Session.Backends.CookieSession ( src/Snap/Snaplet/Session/Backends/CookieSession.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Session/Backends/CookieSession.o )
+
+src/Snap/Snaplet/Session/Backends/CookieSession.hs:11:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[33 of 34] Compiling Snap.Snaplet.Test ( src/Snap/Snaplet/Test.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap/Snaplet/Test.o )
+[34 of 34] Compiling Snap             ( src/Snap.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Snap.o )
+In-place registering snap-0.14.0.7...
+Preprocessing executable 'snap' for snap-0.14.0.7...
+[1 of 2] Compiling Snap.StarterTH   ( src/Snap/StarterTH.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/snap/snap-tmp/Snap/StarterTH.o )
+
+src/Snap/StarterTH.hs:37:32: Warning:
+    In the use of ‘free’ (imported from System.Directory.Tree):
+    Deprecated: "Use record 'dirTree'"
+
+src/Snap/StarterTH.hs:39:29: Warning:
+    In the use of ‘free’ (imported from System.Directory.Tree):
+    Deprecated: "Use record 'dirTree'"
+[2 of 2] Compiling Main             ( src/Snap/Starter.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/snap/snap-tmp/Main.o )
+Linking .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/snap/snap ...
+Installing library in
+/Users/zxy/haskell/zurihac/codelab/memegen/.stack-work/install/x86_64-osx/lts-6.2/7.10.3/lib/x86_64-osx-ghc-7.10.3/snap-0.14.0.7-6GPj5fu1CsgKwE4lubhqik
+Installing executable(s) in
+/Users/zxy/haskell/zurihac/codelab/memegen/.stack-work/install/x86_64-osx/lts-6.2/7.10.3/bin
+Registering snap-0.14.0.7...

@@ -1,0 +1,87 @@
+
+==================== FINAL INTERFACE ====================
+2016-11-09 08:51:33.538221 UTC
+
+interface memeg_LmMZFBFGUdZD6ANCDaWLKw:Memegen.Img 7103
+  interface hash: 711f985db9a70ea79507401a72209bbc
+  ABI hash: 1b870fb55334566e7c8fd62d25972866
+  export-list hash: 9164fb840beb5a66b9787a35ee707b1d
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 132912e08a86f113373cc9cd59f68de8
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Memegen.Img.createMeme
+module dependencies:
+package dependencies: array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA
+                      base-4.8.2.0 bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      gd-3000.7.3@gd_5vWRwb8ptBsKiu9qT5e7Cl ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Functor.Identity
+                         base-4.8.2.0:Data.Monoid base-4.8.2.0:Data.Type.Equality
+                         base-4.8.2.0:Data.Void base-4.8.2.0:GHC.Generics
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.2.0:GHC.Real 1281efa9baf803bc7859d7efb89a38b3
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString db2e56635ed30ff269e1492b64605a38
+import  -/  bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Internal b99858e89f19feddd3dcb9e9d523065e
+import  -/  gd-3000.7.3@gd_5vWRwb8ptBsKiu9qT5e7Cl:Graphics.GD e01675c9279ea3a46d4c2cf364a61578
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+f378aac426ef5094d6631b9b66ffd6c2
+  $wa ::
+    GHC.Prim.Addr#
+    -> GHC.ForeignPtr.ForeignPtrContents
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Base.String
+    -> GHC.Base.String
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.ByteString.Internal.ByteString #)
+  {- Arity: 7, Strictness: <L,U><L,U><L,U><L,U><L,U><L,U><L,U>,
+     Inline: [0] -}
+096e456a4041c2045f76fd029ff41ace
+  createMeme ::
+    Data.ByteString.Internal.ByteString
+    -> GHC.Base.String
+    -> GHC.Base.String
+    -> GHC.Types.IO Data.ByteString.Internal.ByteString
+  {- Arity: 4, Strictness: <S,1*U(U,U,U,U)><L,U><L,U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Memegen.Img.createMeme1
+                  `cast`
+                (<Data.ByteString.Internal.ByteString>_R
+                 ->_R <GHC.Base.String>_R
+                 ->_R <GHC.Base.String>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0]
+                               <Data.ByteString.Internal.ByteString>_R)) -}
+066bd24332e661e0d97cd5d90ce1e21c
+  createMeme1 ::
+    Data.ByteString.Internal.ByteString
+    -> GHC.Base.String
+    -> GHC.Base.String
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.ByteString.Internal.ByteString #)
+  {- Arity: 4, Strictness: <S,1*U(U,U,U,U)><L,U><L,U><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (4, True, False)
+                (\ w :: Data.ByteString.Internal.ByteString
+                   w1 :: GHC.Base.String
+                   w2 :: GHC.Base.String
+                   w3 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case w of ww { Data.ByteString.Internal.PS ww1 ww2 ww3 ww4 ->
+                 Memegen.Img.$wa ww1 ww2 ww3 ww4 w1 w2 w3 }) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

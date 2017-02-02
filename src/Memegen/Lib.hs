@@ -43,7 +43,7 @@ maxFileSize :: Int64
 maxFileSize = 2^(24::Int)  -- 16MB
 
 memegenEntry :: IO ()
-memegenEntry = S.serveSnaplet S.defaultConfig appInit
+memegenEntry = S.serveSnaplet (S.setBind "127.0.0.1" S.defaultConfig) appInit
 
 -- changed signiture to "AppState", was "a ()" or "a b ()"
 appInit :: S.SnapletInit AppState AppState
@@ -66,8 +66,9 @@ routes :: [(B.ByteString, S.Handler AppState AppState ())]
 routes = [ ("/", S.ifTop $ S.writeBS "hello there")
          , ("hello/:echoparam", method GET $ echoHandler)
          , ("upload", method POST $ uploadHandler)
+         , ("upload", S.serveDirectory "resources/upload.html")
          , ("list", method GET $ listHandler)
-         , ("image", S.serveDirectory uploadDir)
+         , ("image", S.serveDirectoryWith S.fancyDirectoryConfig "upload")
          ]
 
 -- handler for hello

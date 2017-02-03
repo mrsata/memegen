@@ -63,10 +63,10 @@ appInit = S.makeSnaplet "memegen" "Meme generator." Nothing $ do
     return $ AppState d
 
 routes :: [(B.ByteString, S.Handler AppState AppState ())]
-routes = [ ("/", S.ifTop $ S.writeBS "hello there")
+routes = [ ("/", S.ifTop $ S.sendFile "resources/index.html")
          , ("hello/:echoparam", method GET $ echoHandler)
          , ("upload", method POST $ uploadHandler)
-         , ("upload", S.serveDirectory "resources/upload.html")
+         , ("upload", S.sendFile "resources/upload.html")
          , ("list", method GET $ listHandler)
          , ("image", S.serveDirectoryWith S.fancyDirectoryConfig "upload")
          ]
@@ -76,6 +76,12 @@ echoHandler :: S.Handler AppState AppState ()
 echoHandler = do
   Just param <- S.getParam "echoparam"
   writeBS $ B.append "Hello " param
+
+-- handler for showing meme
+listHandler :: S.Handler AppState AppState ()
+listHandler = do
+  memes <- S.withTop db $ Db.listMemes
+  writeBS $ BL.toStrict $ encode memes
 
 -- handler for upload
 uploadHandler :: S.Handler AppState AppState ()
@@ -112,9 +118,3 @@ uploadHandler = do
     uploadPolicy =
      -- 2^24 is the maximum allowed upload file size (16MiB)
      S.setMaximumFormInputSize (maxFileSize) S.defaultUploadPolicy
-
--- handler for showing meme
-listHandler :: S.Handler AppState AppState ()
-listHandler = do
-  memes <- S.withTop db $ Db.listMemes
-  writeBS $ BL.toStrict $ encode memes
